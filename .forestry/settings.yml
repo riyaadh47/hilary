@@ -16,6 +16,8 @@ sections:
   label: Main Pages
   create: all
   match: _pages/*
+  templates:
+  - default
 - type: jekyll-pages
   label: Pages
   create: all

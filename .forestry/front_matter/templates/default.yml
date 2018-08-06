@@ -12,3 +12,4 @@ fields:
   default: default
 pages:
 - _pages/events.md
+- _pages/services.md

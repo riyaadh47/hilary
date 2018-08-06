@@ -32,6 +32,12 @@ sass:
   style: compressed
   sourcemap: true
 
+collections:
+  main-pages:
+    title: Main Pages
+    permalink: /:collection/:path/
+    output: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

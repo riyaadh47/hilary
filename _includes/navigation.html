@@ -4,8 +4,8 @@
 	</a>
 	<nav>
 		<ul>
-			{% for page in site.pages %}
-				<li><a href="{{page.url}}">{{page.name}}</a></li>
+			{% for page in site.main-pages %}
+				<li><a href="{{page.url}}">{{page.title}}</a></li>
 			{% endfor %}
 		</ul>
 	</nav>

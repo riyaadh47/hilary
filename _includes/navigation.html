@@ -1,0 +1,12 @@
+<header>
+	<a class="logo">
+		
+	</a>
+	<nav>
+		<ul>
+			{% for page in site.pages %}
+				<li><a href="{{page.url}}">{{page.name}}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+</header>

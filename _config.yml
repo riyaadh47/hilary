@@ -35,7 +35,6 @@ sass:
 collections:
   pages:
     title: Main Pages
-    permalink: /:collection/:path/
     output: true
 
 # Exclude from processing.

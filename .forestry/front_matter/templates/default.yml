@@ -10,6 +10,9 @@ fields:
   name: layout
   label: layout
   default: default
+- type: number
+  name: order
+  label: Order
 pages:
 - _pages/events.md
 - _pages/services.md

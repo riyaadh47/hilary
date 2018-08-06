@@ -1,7 +1,7 @@
 ---
 title: Events
 layout: default
-order: 3
+order: 4
 
 ---
 This is the events page

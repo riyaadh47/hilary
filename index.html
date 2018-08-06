@@ -3,3 +3,9 @@ title: Home page
 layout: default
 order: 0
 ---
+
+<div class="slider">
+	{% for slide in site.data.sliders.sliders %}
+		<div><img src="{{site.baseurl}}/{{slide.img}}"></div>
+	{% endfor %}
+</div>

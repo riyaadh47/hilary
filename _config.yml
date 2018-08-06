@@ -46,7 +46,7 @@ collections:
   events:
     title: Events
     output: true
-    permalink: /:events/:path
+    permalink: /:collection/:path
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

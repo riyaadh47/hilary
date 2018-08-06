@@ -1,12 +1,14 @@
 <header>
-	<a class="logo">
-		
-	</a>
-	<nav>
-		<ul>
-			{% for page in site.main-pages %}
-				<li><a href="{{page.url}}">{{page.title}}</a></li>
-			{% endfor %}
-		</ul>
-	</nav>
+	<section class="container">
+		<a class="logo">
+			LOGO
+		</a>
+		<nav>
+			<ul>
+				{% for page in site.main-pages %}
+					<li><a href="{{page.url}}">{{page.title}}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+	</section>
 </header>

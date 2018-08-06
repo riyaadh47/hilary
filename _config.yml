@@ -41,8 +41,6 @@ collections:
     title: Main Pages
     output: true
     permalink: /:path
-
-collections:
   events:
     title: Events
     output: true

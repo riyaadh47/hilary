@@ -11,6 +11,5 @@ fields:
   label: layout
   default: default
 pages:
-- 1st-event.md
 - _pages/b.md
 - _pages/events.md

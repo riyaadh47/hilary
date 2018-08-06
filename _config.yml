@@ -26,9 +26,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+
+include: ["_pages"]
+
+permalink: pretty
 
 sass:
+  sass_dir: _sass
   style: compressed
   sourcemap: true
 

@@ -5,7 +5,8 @@
 		</a>
 		<nav>
 			<ul>
-				{% for page in site.pages %}
+				{% assign sort-pages = site.pages | sort: "order" %}
+				{% for page in sort-pages %}
 					<li><a href="{{page.url}}">{{page.title}}</a></li>
 				{% endfor %}
 			</ul>

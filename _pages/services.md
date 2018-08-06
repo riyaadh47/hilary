@@ -1,7 +1,7 @@
 ---
 title: Services
 layout: default
-order: 3
+order: 2
 
 ---
 Services

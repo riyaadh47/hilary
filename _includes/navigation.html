@@ -1,19 +1,11 @@
 <header>
 	<section class="container">
-		<a class="logo">
-			LOGO
+		<a href="/" class="logo">
+			<img src="{{site.baseurl}}/img/logo.png" alt="">
 		</a>
 		<nav>
 			<ul>
 				{% for page in site.pages %}
-					<li><a href="{{page.url}}">{{page.title}}</a></li>
-				{% endfor %}
-			</ul>
-		</nav>
-
-		<nav>
-			<ul>
-				{% for event in site.events %}
 					<li><a href="{{page.url}}">{{page.title}}</a></li>
 				{% endfor %}
 			</ul>

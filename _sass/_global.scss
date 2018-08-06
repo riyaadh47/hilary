@@ -1,3 +1,7 @@
+* {
+	@include border-box;
+}
+
 .df {
 	display: flex;
 	&.fd-row {
@@ -16,12 +20,24 @@
 		justify-content: center;
 	}
 
+	&.jc-fs {
+		justify-content: flex-start;
+	}
+
+	&.jc-sa {
+		justify-content: space-around;
+	}
+
 	&.ac-sb {
 		align-content: space-between;
 	}
 
-	&.ac-c {
-		align-content: center;
+	&.ai-c {
+		align-items: center;
+	}
+
+	&.ai-fe {
+		align-items: flex-end;
 	}
 }
 
@@ -34,9 +50,11 @@
 
 .logo {
 	@extend .df;
-	@extend .ac-c;
+	@extend .ai-c;
 	@extend .jc-c;
 	width: 100%;
-	max-width: 120px;
-	border: 1px solid #000;
+	max-width: 150px;
+	img {
+		max-width: 100%;
+	}
 }

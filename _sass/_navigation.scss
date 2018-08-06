@@ -4,16 +4,29 @@ header {
 }
 
 nav {
+	@extend .df;
 	margin: 0;
 	padding: 0;
-	flex: 1;
-	border: 1px solid #000;
+	width: 100%;
+	font-family: $base-font;
 	ul {
+		width: 100%;
 		margin: 0;
 		padding: 0;
+		@extend .df;
+		@extend .ai-fe;
+		@extend .jc-sa;
 		li {
 			margin: 0;
 			padding: 0;
+			list-style: none;
+			a {
+				color: $blue;
+				font-size: 13px;
+				font-weight: 600;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
 		}
 	}
 }

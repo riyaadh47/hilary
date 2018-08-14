@@ -15,4 +15,5 @@
 	font-family: $secondary-font;
 	color: $dark-blue;
 	@include font-size(13);
+	text-decoration: none;
 }

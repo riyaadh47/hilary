@@ -1,0 +1,48 @@
+.events-snippets {
+	width: 100%;
+	max-width: 980px;
+	@extend .df;
+	flex-wrap: wrap;
+	text-align: center;
+	@include rem(margin, 0 auto);
+	@include rem(padding, 30px 0 80px);
+
+	h2 {
+		color: $dark-blue;
+		width: 100%;
+		@include rem(margin, 20px auto 70px);
+		text-transform: uppercase;
+		font-family: $secondary-font;
+	}
+
+	.event {
+		@extend .df;
+		@extend .fd-column;
+		width: 33.3%;
+		border-right: 1px solid $gold;
+		&:last-child {
+			border: none;
+		}
+		.short-date {
+			@include font-size(25);
+			@include rem(margin, 0 0 20px);
+			color: $dark-blue;
+			font-family: $secondary-font;
+		}
+		.debate {
+			font-family: $base-font;
+			font-weight: 600;
+			@include rem(margin, 0 0 10px);
+			@include font-size(15);
+		}
+		.date {
+			font-family: $base-font;
+			font-weight: normal;
+			@include rem(margin, 0 0 25px);
+			@include font-size(15);
+		}
+		.link {
+			@include font-size(14);
+		}
+	}
+}

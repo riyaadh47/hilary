@@ -1,0 +1,28 @@
+{
+	"events" : [
+		{
+			"short-date": "25/FEB",
+			"debate": "Debate: God in the Modern World",
+			"date": "Wednesday, February 25 at 15:00",
+			"link": "http://google.com"
+		},
+		{
+			"short-date": "02/JAN",
+			"debate": "Debate: God in the Modern World",
+			"date": "Wednesday, February 25 at 15:00",
+			"link": "http://google.com"
+		},
+		{
+			"short-date": "05/NOV",
+			"debate": "Debate: God in the Modern World",
+			"date": "Wednesday, February 25 at 15:00",
+			"link": "http://google.com"
+		},
+		{
+			"short-date": "05/NOV",
+			"debate": "Debate: God in the Modern World",
+			"date": "Wednesday, February 25 at 15:00",
+			"link": "http://google.com"
+		}
+	]
+}

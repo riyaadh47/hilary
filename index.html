@@ -8,7 +8,7 @@ order: 0
 		{% for item in site.data.sliders.call-to-action %}
 			<p>{{item.paragraph}}</p>
 			<h2>{{item.heading}}</h2>
-			<a href="" class="button">Read more</a>
+			<a href="{{item.link}}" class="button">Read more</a>
 		{% endfor %}
 	</div>
 	<div class="slider">
@@ -16,4 +16,16 @@ order: 0
 			<div><img src="{{site.baseurl}}/{{slide.img}}"></div>
 		{% endfor %}
 	</div>
+</div>
+
+<div class="events-snippets">
+	<h2>Next Events</h2>
+	{% for event in site.events limit: 3 %}
+		<div class="event">
+			<span class="short-date">{{event.short-date}}</span>
+			<span class="debate">Debate: {{event.debate}}</span>
+			<span class="date">{{event.event-date}}</span>
+			<a href="{{event.url}}" class="link">MORE INFO &gt;&gt;</a>
+		</div>
+	{% endfor %}
 </div>

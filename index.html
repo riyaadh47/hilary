@@ -3,9 +3,17 @@ title: Home page
 layout: default
 order: 0
 ---
-
-<div class="slider">
-	{% for slide in site.data.sliders.sliders %}
-		<div><img src="{{site.baseurl}}/{{slide.img}}"></div>
-	{% endfor %}
+<div class="slider-container">
+	<div class="call-to-action">
+		{% for item in site.data.sliders.call-to-action %}
+			<p>{{item.paragraph}}</p>
+			<h2>{{item.heading}}</h2>
+			<a href="" class="button">Read more</a>
+		{% endfor %}
+	</div>
+	<div class="slider">
+		{% for slide in site.data.sliders.sliders %}
+			<div><img src="{{site.baseurl}}/{{slide.img}}"></div>
+		{% endfor %}
+	</div>
 </div>

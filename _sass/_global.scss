@@ -58,3 +58,8 @@
 		max-width: 100%;
 	}
 }
+
+p {
+  @include rem(margin, 0 0 20px);
+  @include rem(padding, 0);
+}

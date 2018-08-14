@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('.slider').bxSlider({
-  	infiniteLoop: false
+  	infiniteLoop: false,
+  	controls: true
   });
 });

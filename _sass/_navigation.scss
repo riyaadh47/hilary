@@ -33,12 +33,7 @@ nav {
 				text-transform: uppercase;
 				border-radius: 20px;
 				&:hover {
-					color: #fff;
-					background: $gold;
-					background: -moz-linear-gradient(left, $gold 30%, $light-gold 70%);
-					background: -webkit-linear-gradient(left, $gold 30%,$light-gold 70%);
-					background: linear-gradient(to right, $gold 30%,$light-gold 70%);
-					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$gold', endColorstr='$light-gold',GradientType=1 );
+					color: $gold;
 				}
 			}
 		}

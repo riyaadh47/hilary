@@ -1,0 +1,12 @@
+.button {
+	@extend .df;
+	@extend .ai-c;
+	@extend .jc-c;
+	width: 100%;
+	max-width: 176px;
+	height: 42px;
+	color: $white;
+	@include font-size(13);
+	text-decoration: none;
+	background-color: #012646;
+}

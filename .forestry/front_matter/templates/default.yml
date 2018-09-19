@@ -14,6 +14,6 @@ fields:
   name: order
   label: Order
 pages:
-- _pages/donate.md
 - index.html
+- _pages/donate.md
 - _pages/services.md

@@ -1,6 +1,6 @@
 ---
 title: Test Page
-layout: default
+layout: page
 date: 2018-09-26 21:44:05 +0200
 order: ''
 

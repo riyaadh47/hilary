@@ -1,0 +1,8 @@
+---
+label: page
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: page
+  label: layout

@@ -12,3 +12,6 @@ fields:
     - default
     - page
   label: layout
+- type: text
+  label: title
+  name: title

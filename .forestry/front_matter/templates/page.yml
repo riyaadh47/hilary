@@ -2,4 +2,7 @@
 label: page
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: textarea
+  name: layout
+  label: layout

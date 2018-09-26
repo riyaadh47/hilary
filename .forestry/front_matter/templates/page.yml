@@ -6,3 +6,4 @@ fields:
 - type: textarea
   name: layout
   label: layout
+  default: page

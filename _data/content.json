@@ -40,29 +40,6 @@
       "link": "http://google.com",
       "linkName": "Link Or Read More"
     }
-  ],
-
-
-
-  "footer" : [
-    {
-      "title" : "About Us",
-      "description" : "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you."
-    },
-    {
-      "title" : "Address",
-      "tel" : "123 456 789",
-      "address" : "500 Terry Francois Street San Francisco, CA 94158"
-    },
-    {
-      "title" : "About the Church."
-    }
   ]
-
-
-
-
-
-
 
 }

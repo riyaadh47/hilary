@@ -2,6 +2,6 @@
 title: God in the modern world 2
 short-date: 02/JAN
 debate: God in the Modern World
-event-date: Wednesday, February 25 at 15:00
+event-date: Wednesday, February 25 at 15:33
 ---
 # God in the modern world

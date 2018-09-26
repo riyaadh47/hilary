@@ -12,18 +12,3 @@
 			</ul>
 		</nav>
 	</section>
-<header>
-	<section class="container">
-		<a href="/" class="logo">
-			<img src="{{site.baseurl}}/img/logo.png" alt="">
-		</a>
-		<nav>
-			<ul>
-				{% assign sort-pages = site.pages | sort: "order" %}
-				{% for page in sort-pages | limit: 5 %}
-					<li><a href="{{page.url | append:'.html' }}">{{page.title}}</a></li>
-				{% endfor %}
-			</ul>
-		</nav>
-	</section>
-</header>

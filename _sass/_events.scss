@@ -21,7 +21,9 @@
 		.event {
 			@extend .df;
 			@extend .fd-column;
-			width: 33.3%;
+			@extend .ai-c;
+			width: 100%;
+			max-width: 33.3%;
 			border-right: 1px solid $gold;
 			&:last-child {
 				border: none;

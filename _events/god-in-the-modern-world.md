@@ -1,5 +1,7 @@
 ---
-title: God in the modern world
-short-date: 25/FEB
+title: God in the modern world 2
+short-date: 02/JAN
+debate: God in the Modern World
+event-date: Wednesday, February 25 at 15:02
 ---
 # God in the modern world

@@ -10,6 +10,3 @@ fields:
 - type: text
   label: title
   name: title
-- type: text
-  name: order
-  label: order

@@ -19,7 +19,6 @@ fields:
   name: order
   label: Order
 pages:
-- _pages/another-page.md
 - index.html
 - _pages/donate.md
 - _pages/services.md

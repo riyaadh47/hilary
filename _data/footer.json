@@ -7,7 +7,7 @@
     {
       "title" : "Address",
       "tel" : "123 456 789",
-      "address" : "500 Terry Francois Street San Francisco, CA 94158"
+      "address" : "500 Terry Francois Street<br>San Francisco,<br>CA 94158"
     },
     {
       "title" : "About the Church."

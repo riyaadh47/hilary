@@ -3,7 +3,10 @@ label: page
 hide_body: false
 is_partial: false
 fields:
-- type: textarea
+- type: text
   name: layout
   label: layout
-  default: page
+  default: ''
+- type: text
+  label: title
+  name: title

@@ -3,13 +3,18 @@ label: default
 hide_body: false
 is_partial: false
 fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - default
+    - page
+  label: layout
 - type: text
   name: title
   label: title
-- type: text
-  name: layout
-  label: layout
-  default: default
 - type: number
   name: order
   label: Order

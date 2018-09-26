@@ -44,7 +44,7 @@
 .container {
 	@extend .df;
 	width: 100%;
-	max-width: 980px;
+	max-width: $site-width;
 	margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ p {
 
 .welcome-message {
 	width: 100%;
-	max-width: 980px;
+	max-width: $site-width;
 	@extend .df;
 	@extend .fd-column;
 	@extend .ai-c;
@@ -89,7 +89,7 @@ p {
 .quick-links {
 	@extend .df;
 	width: 100%;
-	max-width: 980px;
+	max-width: $site-width;
 	@include rem(margin, 0 auto);
 	@include rem(padding, 0 0 30px);
 	article {
@@ -168,23 +168,48 @@ p {
 		background-color: rgba($black, 0.8);
 		h2 {
 			width: 100%;
-			max-width: 980px;
+			max-width: $site-width;
 			@include rem(padding, 0 20px);
 		}
 		p {
 			width: 100%;
-			max-width: 980px;
+			max-width: $site-width;
 			@include rem(padding, 0 20px);
 		}
 	}
 }
 
 footer {
-	height: 300px;
+	background-color: $brown;
+	color: $grey;
 	width: 100%;
+	@include rem(padding, 30px 0px);
+	section	{
+		@extend .df;
+		width: 100%;
+		max-width: $site-width;
+		@include rem(margin, 0px auto);
+		.column {
+			flex: 1;
+			@include rem(padding, 0px 20px);
+			border-right: 1px solid $grey;
+			&:last-child {
+				border-right: none;
+			}
+			h2 {
+				font-family: $secondary-font;
+				@include font-size(22);
+			}
+			p {
+				font-family: $base-font;
+				@include font-size(12);
+			}
+		}
+	}
 }
 
 .construction {
+	display: none;
 	position: fixed;
 	width: 100%;
 	bottom: 0;

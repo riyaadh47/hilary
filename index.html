@@ -66,9 +66,14 @@ order: 0
 {% endfor %}
 
 <footer>
-	{% for item in site.data.content.footer.about %}
-		<div class="column">
-			<h2>{{item.heading}}</h2>	
-		</div>
-	{% endfor %}
+	<section>
+		{% for item in site.data.content.footer %}
+			<div class="column">
+				<h2>{{item.title}}</h2>
+				<p>{{item.description}}</p>
+				<p>{{item.tel}}</p>
+				<p>{{item.address}}</p>
+			</div>
+		{% endfor %}
+	</section>
 </footer>

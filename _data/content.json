@@ -25,6 +25,13 @@
       "link": "http://google.com"
     }
   ],
+
+
+
+
+
+
+
   "pre-footer": [
     {
       "backgroundImage": "img/Clip0001T01.JPG",
@@ -35,22 +42,27 @@
     }
   ],
 
-  "footer": [
+
+
+  "footer" : [
     {
-      "about":
-        {
-          "heading": "This is a heading",
-          "paragraph": "This is a paragraph"
-        }
+      "title" : "About Us",
+      "description" : "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you."
     },
     {
-      "address":
-        {
-          "heading": "Address",
-          "number": "021 000 0000",
-          "address": "2 Fir Street",
-          "email": "hilary@email.com"
-        }
+      "title" : "Address",
+      "tel" : "123 456 789",
+      "address" : "500 Terry Francois Street San Francisco, CA 94158"
+    },
+    {
+      "title" : "About the Church."
     }
   ]
+
+
+
+
+
+
+
 }

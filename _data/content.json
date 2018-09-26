@@ -17,6 +17,40 @@
       "heading": "ABOUT OUR CHURCH",
       "paragraph": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
       "link": "http://google.com"
+    },
+    {
+      "hero": "img/IMG_0075.JPG",
+      "heading": "ABOUT OUR CHURCH",
+      "paragraph": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
+      "link": "http://google.com"
+    }
+  ],
+  "pre-footer": [
+    {
+      "backgroundImage": "img/Clip0001T01.JPG",
+      "heading": "HELP US TO SPREAD OUR<br>LOVE AND FAITH",
+      "paragraph": "I'm a title. Click here to add your own text and edit me.",
+      "link": "http://google.com",
+      "linkName": "Link Or Read More"
+    }
+  ],
+
+  "footer": [
+    {
+      "about":
+        {
+          "heading": "This is a heading",
+          "paragraph": "This is a paragraph"
+        }
+    },
+    {
+      "address":
+        {
+          "heading": "Address",
+          "number": "021 000 0000",
+          "address": "2 Fir Street",
+          "email": "hilary@email.com"
+        }
     }
   ]
 }

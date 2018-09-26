@@ -3,6 +3,11 @@ title: Home page
 layout: default
 order: 0
 ---
+
+<div class="construction">
+	<h5>Website still under construction</h5>
+</div>
+
 <div class="slider-container">
 	<div class="call-to-action">
 		{% for item in site.data.sliders.call-to-action %}
@@ -49,3 +54,21 @@ order: 0
 		</article>
 	{% endfor %}
 </section>
+
+{% for item in site.data.content.pre-footer %}
+	<section class="pre-footer" style="background-image: url({{item.backgroundImage}});">
+		<span class="pre-footer-content">
+			<h2>{{item.heading}}</h2>
+			<p>{{item.paragraph}}</p>
+			<a href="{{item.link}}" class="button">{{item.linkName}}</a>
+		</span>
+	</section>
+{% endfor %}
+
+<footer>
+	{% for item in site.data.content.footer.about %}
+		<div class="column">
+			<h2>{{item.heading}}</h2>	
+		</div>
+	{% endfor %}
+</footer>

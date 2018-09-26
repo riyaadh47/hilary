@@ -15,5 +15,5 @@ fields:
   label: Order
 pages:
 - index.html
-- _pages/services.md
 - _pages/donate.md
+- _pages/services.md

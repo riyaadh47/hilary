@@ -6,12 +6,15 @@
 	max-width: 176px;
 	height: 42px;
 	color: $white;
+	font-family: $base-font;
 	@include font-size(13);
 	text-decoration: none;
 	background-color: #012646;
 }
 
 .link {
+	width: 100%;
+	max-width: 176px;
 	font-family: $secondary-font;
 	color: $dark-blue;
 	@include font-size(13);

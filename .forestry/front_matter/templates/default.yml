@@ -25,6 +25,7 @@ fields:
   name: jumbotron
   label: Jumbotron
 pages:
+- _pages/page-3.html
 - _pages/page-2.html
 - _pages/page-1.html
 - _pages/testing-123.html

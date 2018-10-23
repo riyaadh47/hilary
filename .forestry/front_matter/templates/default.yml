@@ -25,5 +25,4 @@ fields:
   name: jumbotron
   label: Jumbotron
 pages:
-- page-1.html
 - index.html

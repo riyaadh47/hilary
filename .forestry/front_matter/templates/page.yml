@@ -12,7 +12,7 @@ fields:
     - default
     - page
   label: layout
-  default: default
+  default: ''
 - type: text
   label: title
   name: title
@@ -23,4 +23,4 @@ fields:
   label: Description
   name: description
   config:
-    required: true
+    required: false

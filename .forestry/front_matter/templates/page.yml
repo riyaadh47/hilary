@@ -23,6 +23,3 @@ fields:
   name: description
   config:
     required: true
-- type: file
-  label: Jumbotron
-  name: img

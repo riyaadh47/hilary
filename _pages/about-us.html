@@ -7,3 +7,31 @@ description: This is a description of about us
 jumbotron: "/img/IMG_0025.JPG"
 
 ---
+
+<div class="rows-container column">
+
+	<div class="about-container row center wrap">
+		{% for item in site.data.content.about-us %}
+			<div class="about-blocks">
+				<h2>{{item.name}}</h2>
+				<p>{{item.snippet}}</p>
+			</div>
+		{% endfor %}
+	</div>
+
+
+	<div class="video-block-container row">
+		{% for item in site.data.content.video-block %}
+			<div class="video-block">
+				<div class="video">
+					<iframe type="text/html" src="http://www.youtube.com/embed/{{item.youtubeid}}?enablejsapi=1?rel=0" frameborder="0"></iframe>
+				</div>
+				<div class="content">
+					<h2>{{item.heading}}</h2>
+					<p>{{item.content}}</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+</div>

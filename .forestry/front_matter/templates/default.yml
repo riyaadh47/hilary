@@ -25,6 +25,8 @@ fields:
   name: jumbotron
   label: Jumbotron
 pages:
+- _pages/events.html
+- _pages/donate.html
 - _pages/services.html
 - _pages/page-1.html
 - index.html

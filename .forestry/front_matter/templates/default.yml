@@ -26,6 +26,4 @@ fields:
   label: Jumbotron
 pages:
 - _pages/testing-123.html
-- _pages/shady.md
 - index.html
-- _pages/donate.md

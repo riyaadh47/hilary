@@ -21,3 +21,6 @@ fields:
 - type: text
   label: Description
   name: description
+- type: file
+  label: Jumbotron
+  name: img

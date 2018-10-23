@@ -18,3 +18,6 @@ fields:
 - type: text
   name: order
   label: order
+- type: text
+  label: Description
+  name: description

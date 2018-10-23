@@ -12,6 +12,7 @@ fields:
     - default
     - page
   label: layout
+  default: default
 - type: text
   label: title
   name: title

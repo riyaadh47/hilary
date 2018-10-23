@@ -25,5 +25,6 @@ fields:
   name: jumbotron
   label: Jumbotron
 pages:
+- _pages/services.html
 - _pages/page-1.html
 - index.html

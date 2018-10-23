@@ -18,6 +18,9 @@ fields:
 - type: number
   name: order
   label: Order
+- type: text
+  label: Description
+  name: description
 pages:
 - _pages/testing-123.html
 - _pages/shady.md

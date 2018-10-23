@@ -24,6 +24,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: _data
+  label: Data
+  create: none
+  match: "**/*.{json,yaml,yml}"
 upload_dir: img
 public_path: "/img"
 front_matter_path: ''

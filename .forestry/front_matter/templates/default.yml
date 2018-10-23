@@ -21,6 +21,9 @@ fields:
 - type: text
   label: Description
   name: description
+- type: text
+  name: jumbotron
+  label: Jumbotron
 pages:
 - _pages/testing-123.html
 - _pages/shady.md

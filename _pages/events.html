@@ -7,3 +7,28 @@ description: ''
 jumbotron: ''
 
 ---
+
+<div class="rows-container column">
+	
+	<div class="event-container">
+		{% for event in site.data.content.events %}
+		<section class="event">
+			<div class="image">
+				<img src="{{event.image}}">
+			</div>
+			<div class="info">	
+				<div class="heading">
+					<p>{{event.date}}</p>
+					<p>{{event.church}}</p>
+				</div>
+				<h2>{{event.event-name}}</h2>
+				<p class="description">{{event.description}}</p>
+				<div class="btn-container">
+					<a href="{{event.url}}" class="button">Register Now</a>
+				</div>
+			</div>
+		</section>
+		{% endfor %}
+	</div>
+
+</div>

@@ -62,6 +62,34 @@
       "heading" : "Hours",
       "content" : "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
     }
+  ],
+
+
+  "events" : [
+    {
+      "image" : "/img/IMG_0023.JPG",
+      "date" : "7th April 2019",
+      "church" : "Church Name",
+      "event-name" : "The Light Project",
+      "description" : "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
+      "url" : "http://google.com"
+    },
+    {
+      "image" : "/img/IMG_0023.JPG",
+      "date" : "7th April 2019",
+      "church" : "Church Name",
+      "event-name" : "The Light Project",
+      "description" : "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
+      "url" : "http://google.com"
+    },
+    {
+      "image" : "/img/IMG_0023.JPG",
+      "date" : "7th April 2019",
+      "church" : "Church Name",
+      "event-name" : "The Light Project",
+      "description" : "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
+      "url" : "http://google.com"
+    }
   ]
 
 }

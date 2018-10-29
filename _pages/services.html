@@ -7,3 +7,27 @@ description: Services page
 jumbotron: "/img/IMG_0212.JPG"
 
 ---
+
+<div class="rows-container column">
+
+<section class="content-block">
+	<h2>BECOME A PART OF OUR FAMILY</h2>
+	<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+</section>
+
+
+<div class="video-block-container row">
+	{% for item in site.data.content.services %}
+		<div class="video-block">
+			<div class="video">
+				<img src="{{item.image}}">
+			</div>
+			<div class="content">
+				<h2>{{item.heading}}</h2>
+				<p>{{item.content}}</p>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+
+</div>

@@ -7,4 +7,4 @@ layout: page
 jumbotron: "/img/IMG_0025.JPG"
 
 ---
-# Number 2!!
+# Number 2!

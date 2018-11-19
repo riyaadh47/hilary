@@ -32,6 +32,7 @@
 				@include font-size(25);
 				@include rem(margin, 0 0 20px);
 				color: $dark-blue;
+				text-transform: uppercase;
 				font-family: $secondary-font;
 			}
 			.debate {

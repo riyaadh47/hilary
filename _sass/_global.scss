@@ -461,15 +461,45 @@ footer {
 	margin: 50px auto;
 	min-height: 300px;
 	width: 100%;
-	border: 1px solid #000;
 	.map {
 		width: 100%;
 		height: 100%;
-		border: 1px solid #000;
 	}
 	.form {
 		width: 100%;
 		height: 100%;
-		border: 1px solid #000;
+		padding-left: 15px;
+		h2 {
+			font-family: $secondary-font;
+			margin: 0px 0px 10px;
+			padding: 0px;
+			color: $blue;
+		}
+		input {
+			margin-bottom: 10px;
+			height: 30px;
+			padding: 0px 5px;
+			border: 1px solid #ccc;
+			font-size: 13px;
+			outline: 0px;
+			font-family: $secondary-font;
+		}
+		textarea {
+			padding: 5px;
+			border: 1px solid #ccc;
+			font-size: 13px;
+			width: 100%;
+			height: 140px;
+			outline: 0px;
+			font-family: $secondary-font;	
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			.button {
+				border: none;
+				margin: 0px;
+			}
+		}
 	}
 }

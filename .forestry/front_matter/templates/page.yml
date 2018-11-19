@@ -16,6 +16,19 @@ fields:
 - type: text
   label: title
   name: title
+- type: datetime
+  name: short-date
+  label: Short date
+  description: This field should only used when creating events pages
+  config:
+    date_format: DD/MMM
+- type: text
+  name: debate
+  label: Debate
+  description: Short description of what the debate will be about.
+- type: datetime
+  label: Full date
+  name: event-date
 - type: text
   name: order
   label: order

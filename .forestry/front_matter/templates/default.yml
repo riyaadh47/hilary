@@ -12,6 +12,15 @@ fields:
     - default
     - page
   label: layout
+- type: datetime
+  name: short-date
+  label: short date
+- type: text
+  label: debate
+  name: debate
+- type: datetime
+  label: full date
+  name: event-date
 - type: text
   name: title
   label: title

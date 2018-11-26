@@ -39,7 +39,7 @@ fields:
     required: false
 - type: file
   name: image
-  label: Image
+  label: Event Image
 - type: text
   name: date
   label: Date

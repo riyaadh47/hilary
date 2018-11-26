@@ -8,6 +8,9 @@ header {
 	@include max-breakpoint(615px) {
 		position: static;
 	}
+	.container {
+		flex-direction: row;
+	}
 	#menu {
 		display: none;
 		@include max-breakpoint($tablet) {

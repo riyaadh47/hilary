@@ -36,6 +36,9 @@ fields:
 - type: file
   name: image
   label: Event Image
+- type: text
+  name: date
+  label: Date
 pages:
 - live.html
 - index.html

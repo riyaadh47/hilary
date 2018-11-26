@@ -10,6 +10,10 @@
 	@include font-size(13);
 	text-decoration: none;
 	background-color: #012646;
+	@include max-breakpoint($tablet) {
+		max-width: 165px;
+    height: 30px;
+	}
 }
 
 .link {

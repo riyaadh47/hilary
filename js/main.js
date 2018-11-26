@@ -5,7 +5,11 @@ $(document).ready(function(){
   });
 
   $("#menu").on("click", function(){
-  	$(".nav").prev().removeClass("nav-close");
-  })
+  	$("nav").removeClass("nav-close");
+  });
+
+  $(".close").click(function(){
+  	$("nav").addClass("nav-close");
+  });
 
 });

@@ -39,6 +39,9 @@ fields:
 - type: text
   name: date
   label: Date
+- type: text
+  label: church
+  name: church
 pages:
 - live.html
 - index.html

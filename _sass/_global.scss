@@ -69,7 +69,6 @@ html {
 
 .container {
 	@extend .df;
-	flex-direction: column;
 	width: 100%;
 	max-width: $site-width;
 	margin: 0 auto;
@@ -220,13 +219,10 @@ footer {
 	color: $grey;
 	width: 100%;
 	@include rem(padding, 30px 0px);
-	.container {
-		flex-direction: row;
-		@include max-breakpoint($tablet) {
-		flex-direction: column;
-		}
-		.column {
-			@include max-breakpoint($tablet) {
+	@include max-breakpoint($tablet) {
+		.container {
+			flex-direction: column;
+			.column {
 				border-right: none;
 				border-bottom: 1px solid $grey;
 			}

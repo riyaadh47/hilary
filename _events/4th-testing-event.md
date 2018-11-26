@@ -4,7 +4,7 @@ date: 2018-11-26 22:06:46 +0200
 layout: page
 short-date: 28/Dec
 event-date: 28 December 2018
-debate: ''
+debate: 4th Testing article
 order: ''
 description: Lorem ipsum
 jumbotron: "/img/IMG_0025.JPG"

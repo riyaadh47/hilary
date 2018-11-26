@@ -10,23 +10,23 @@ jumbotron: "/img/IMG_0172.JPG"
 <div class="rows-container column">
 	
 	<div class="event-container">
-		{% for event in site.data.content.events %}
-		<section class="event">
-			<div class="image">
-				<img src="{{event.image}}">
-			</div>
-			<div class="info">	
-				<div class="heading">
-					<p>{{event.date}}</p>
-					<p>{{event.church}}</p>
+		{% for event in site.events %}
+			<section class="event">
+				<div class="image">
+					<img src="{{event.image}}">
 				</div>
-				<h2>{{event.event-name}}</h2>
-				<p class="description">{{event.description}}</p>
-				<div class="btn-container">
-					<a href="{{event.url}}" class="button">Register Now</a>
+				<div class="info">	
+					<div class="heading">
+						<p>{{event.date | date: "%d %B, %Y" }}</p>
+						<p>{{event.church}}</p>
+					</div>
+					<h2>{{event.event-name}}</h2>
+					<p class="description">{{event.description}}</p>
+					<div class="btn-container">
+						<a href="{{event.url}}" class="button">Register Now</a>
+					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 		{% endfor %}
 	</div>
 

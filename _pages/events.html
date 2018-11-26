@@ -23,7 +23,7 @@ jumbotron: "/img/IMG_0172.JPG"
 					<h2>{{event.event-name}}</h2>
 					<p class="description">{{event.description}}</p>
 					<div class="btn-container">
-						<a href="{{event.url}}" class="button">Register Now</a>
+						<a href="{{event.url | append:'.html' }}" class="button">Register Now</a>
 					</div>
 				</div>
 			</section>

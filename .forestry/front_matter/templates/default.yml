@@ -33,6 +33,9 @@ fields:
 - type: file
   name: jumbotron
   label: Jumbotron
+- type: file
+  name: image
+  label: Event Image
 pages:
 - live.html
 - index.html

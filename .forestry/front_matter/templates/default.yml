@@ -42,6 +42,9 @@ fields:
 - type: text
   label: church
   name: church
+- type: text
+  name: event-name
+  label: event-name
 pages:
 - live.html
 - index.html

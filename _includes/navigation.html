@@ -3,7 +3,7 @@
 		<a href="/" class="logo">
 			<img src="{{site.baseurl}}/img/logo.png" alt="">
 		</a>
-		<nav>
+		<nav class="nav-close">
 			<ul>
 				{% assign sort-pages = site.pages | sort: "order" %}
 				{% for page in sort-pages | limit: 5 %}
@@ -11,5 +11,8 @@
 				{% endfor %}
 			</ul>
 		</nav>
+
+		<span id="menu">menu</span>
+
 	</section>
 </header>

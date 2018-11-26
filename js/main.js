@@ -3,4 +3,9 @@ $(document).ready(function(){
   	infiniteLoop: false,
   	controls: true
   });
+
+  $("#menu").on("click", function(){
+  	$(".nav").prev().removeClass("nav-close");
+  })
+
 });

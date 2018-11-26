@@ -10,22 +10,41 @@
     @extend .jc-c;
     text-align: center;
     position: absolute;
-    bottom: -80px;
+    bottom: 0;
     top: 0;
     left: 0;
+    right: 0;
     margin: auto;
     z-index: 999;
     font-family: $secondary-font;
     color: $white;
     background-color: rgba($black, 0.8);
+    @include max-breakpoint($tablet) {
+      height: 200px;
+    }
+    @include max-breakpoint($mobile) {
+      height: 150px;
+    }
     p {
       @include rem(margin, 0 0 20px);
       @include rem(padding, 0);
+      @include max-breakpoint($tablet) {
+        @include font-size(13);
+      }
+      @include max-breakpoint($mobile) {
+        @include font-size(13);
+      }
     }
     h2 {
       @include font-size(50);
       @include rem(margin, 0 0 20px);
       @include rem(padding, 0);
+      @include max-breakpoint($tablet) {
+        @include font-size(24);
+      }
+      @include max-breakpoint($mobile) {
+        @include font-size(18);
+      }
     }
   }
 }
@@ -33,7 +52,7 @@
 .bx-wrapper {
   position: relative;
   width: 100%;
-  height: 550px;
+  //height: 550px;
   overflow: hidden;
   margin-bottom: 0;
   padding: 0;

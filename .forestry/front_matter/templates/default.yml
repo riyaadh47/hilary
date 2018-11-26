@@ -34,6 +34,7 @@ fields:
   name: jumbotron
   label: Jumbotron
 pages:
+- live.html
 - index.html
 - _pages/about-us.html
 - _pages/services.html

@@ -46,7 +46,6 @@ fields:
   name: event-name
   label: event-name
 pages:
-- index.html
 - _pages/about-us.html
 - _pages/services.html
 - _pages/donate.html
@@ -54,3 +53,4 @@ pages:
 - _events/sunday-mass.md
 - _events/first-ever-event.html
 - _pages/events.html
+- index.html

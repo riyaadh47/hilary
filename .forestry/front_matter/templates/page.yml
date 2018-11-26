@@ -37,3 +37,15 @@ fields:
   name: description
   config:
     required: false
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: date
+  label: Date
+- type: text
+  name: church
+  label: Church
+- type: text
+  name: event-name
+  label: Event Name

@@ -46,7 +46,6 @@ fields:
   name: event-name
   label: event-name
 pages:
-- live.html
 - index.html
 - _pages/about-us.html
 - _pages/services.html

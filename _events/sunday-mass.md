@@ -1,6 +1,6 @@
 ---
 title: Sunday Mass
-date: 2018-11-26 21:27:11 +0200
+date: 2018-11-26 19:27:11 Z
 layout: page
 short-date: 03/Dec
 event-date: 3 December 2018
@@ -11,6 +11,6 @@ jumbotron: "/img/IMG_0025.JPG"
 image: "/img/IMG_0025.JPG"
 church: House of Worship
 event-name: Sunday Mass
-
 ---
+
 # Hello, everyone.

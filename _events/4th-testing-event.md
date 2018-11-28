@@ -1,6 +1,6 @@
 ---
 title: 4th testing event
-date: 2018-11-26 20:06:46 Z
+date: 2018-11-26 22:06:46 +0200
 layout: page
 short-date: 28/Dec
 event-date: 28 December 2018
@@ -11,5 +11,5 @@ jumbotron: "/img/IMG_0025.JPG"
 image: "/img/IMG_0212.JPG"
 church: House of Worship
 event-name: 4th event
----
 
+---

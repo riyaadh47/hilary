@@ -107,7 +107,7 @@ nav {
 	}
 	.close {
 		display: none;
-		@include max-breakpoint($tablet) {
+		@include max-breakpoint($tablet-landscape) {
 			display: block;
 			position: absolute;
 			right: 8px;

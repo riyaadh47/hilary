@@ -5,7 +5,7 @@ $(document).ready(function(){
   });
 
   $("#menu").on("click", function(){
-  	$("nav").removeClass("nav-close");
+  	$("nav").toggleClass("nav-close");
   });
 
   $(".close").click(function(){

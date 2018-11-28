@@ -106,6 +106,20 @@
       "about" : "Dummy text for modal 2",
       "excerpt" : "This is dummy text modal 2",
       "picture" : "https://via.placeholder.com/500",
+    },
+    {
+      "name" : "modal 3",
+      "surname" : "another-surname3",
+      "about" : "Dummy text for modal 3",
+      "excerpt" : "This is dummy text modal 3",
+      "picture" : "https://via.placeholder.com/500",
+    },
+    {
+      "name" : "modal 4",
+      "surname" : "another-surname4",
+      "about" : "Dummy text for modal 4",
+      "excerpt" : "This is dummy text modal 4",
+      "picture" : "https://via.placeholder.com/500",
     }
   ]
 }

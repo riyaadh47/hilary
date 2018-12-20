@@ -37,7 +37,7 @@
   "about-us": [
     {
       "name": "OUR VISION",
-      "snippet": "I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you."
+      "snippet": "The vision of the ministry is to raise true worshipers of Jesus Christ"
     },
     {
       "name": "OUR VISION",
@@ -55,71 +55,67 @@
       "content": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you..."
     }
   ],
-
-  "services" : [
+  "services": [
     {
-      "image" : "img/IMG_0017.JPG",
-      "heading" : "Hours",
-      "content" : "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+      "image": "img/IMG_0017.JPG",
+      "heading": "Hours",
+      "content": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
     }
   ],
-
-
-  "events" : [
+  "events": [
     {
-      "image" : "/img/IMG_0023.JPG",
-      "date" : "7th April 2019",
-      "church" : "Church Name",
-      "event-name" : "The Light Project",
-      "description" : "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
-      "url" : "http://google.com"
+      "image": "/img/IMG_0023.JPG",
+      "date": "7th April 2019",
+      "church": "Church Name",
+      "event-name": "The Light Project",
+      "description": "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
+      "url": "http://google.com"
     },
     {
-      "image" : "/img/IMG_0023.JPG",
-      "date" : "7th April 2019",
-      "church" : "Church Name",
-      "event-name" : "The Light Project",
-      "description" : "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
-      "url" : "http://google.com"
+      "image": "/img/IMG_0023.JPG",
+      "date": "7th April 2019",
+      "church": "Church Name",
+      "event-name": "The Light Project",
+      "description": "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
+      "url": "http://google.com"
     },
     {
-      "image" : "/img/IMG_0023.JPG",
-      "date" : "7th April 2019",
-      "church" : "Church Name",
-      "event-name" : "The Light Project",
-      "description" : "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
-      "url" : "http://google.com"
+      "image": "/img/IMG_0023.JPG",
+      "date": "7th April 2019",
+      "church": "Church Name",
+      "event-name": "The Light Project",
+      "description": "I’m an event description. To edit the event description go to My Events. Simply click Manage Events and start editing your event details. I’m a great place to get your guests excited by telling them a little more about your upcoming events.",
+      "url": "http://google.com"
     }
   ],
-
-  "pastors" : [
+  "pastors": [
     {
-      "name" : "Modal Title or Pastor Name",
-      "surname" : "surname",
-      "about" : "Dummy text modal 1",
-      "excerpt" : "This is dummy text modal 1",
-      "picture" : "https://via.placeholder.com/500",
+      "name": "Modal Title or Pastor Name",
+      "surname": "surname",
+      "about": "Dummy text modal 1",
+      "excerpt": "This is dummy text modal 1",
+      "picture": "https://via.placeholder.com/500"
     },
     {
-      "name" : "modal 2",
-      "surname" : "another-surname",
-      "about" : "Dummy text for modal 2",
-      "excerpt" : "This is dummy text modal 2",
-      "picture" : "https://via.placeholder.com/500",
+      "name": "modal 2",
+      "surname": "another-surname",
+      "about": "Dummy text for modal 2",
+      "excerpt": "This is dummy text modal 2",
+      "picture": "https://via.placeholder.com/500"
     },
     {
-      "name" : "modal 3",
-      "surname" : "another-surname3",
-      "about" : "Dummy text for modal 3",
-      "excerpt" : "This is dummy text modal 3",
-      "picture" : "https://via.placeholder.com/500",
+      "name": "modal 3",
+      "surname": "another-surname3",
+      "about": "Dummy text for modal 3",
+      "excerpt": "This is dummy text modal 3",
+      "picture": "https://via.placeholder.com/500"
     },
     {
-      "name" : "modal 4",
-      "surname" : "another-surname4",
-      "about" : "Dummy text for modal 4",
-      "excerpt" : "This is dummy text modal 4",
-      "picture" : "https://via.placeholder.com/500",
+      "name": "modal 4",
+      "surname": "another-surname4",
+      "about": "Dummy text for modal 4",
+      "excerpt": "This is dummy text modal 4",
+      "picture": "https://via.placeholder.com/500"
     }
   ]
 }

@@ -1,31 +1,33 @@
 ---
 title: About us
-date: 2018-10-23 20:42:53 Z
+date: 2018-10-23 22:42:53 +0200
 layout: page
 order: 2
-description: This is a description of about us
+description: 'House of Worship Ministry commenced with their first church service
+  on the 21st of July 2013 at No. 7 Loop Street, Cape Town with General Overseer Pastor
+  Jeff Onyems and his wife. God added to their number and in April 2014 the church
+  moved to her second location at 8 Rochester Street Observatory with 9 dedicated
+  members. Ever since then God has worked mightily through the General Overseer Pastor
+  Jeff Onyems as lots of miracles happened. More souls has been added consistently
+  over the years which led to the relocation of the church to a new church premises
+  at No. 48 Hopkins Street Salt River Cape Town on 19th December 2014. At the church
+  premises in Salt River great multitudes joined the ministry within 3 to 4 years
+  through the prophetic anointing of the Man of God Pastor Jeff Onyems and his assistants.
+  The ministry rose to over 100 dedicated members and this meant that a new church
+  premises with a larger venue was needed to accommodate the growing number of church
+  members. God through one of the church members made the vision possible as he helped
+  facilitate the new and current venue of the church which is 19 Spencer Road Salt
+  River Cape Town South Africa. The church oficially moved into the new premises on
+  the 28th March 2018 and the first Sunday service was held on the 1st of April 2018.  '
 jumbotron: "/img/IMG_0025.JPG"
+short-date: ''
+event-date: ''
+debate: ''
+image: ''
+church: ''
+event-name: ''
+
 ---
-
-{% for pastor in site.data.content.pastors %}
-	<div class="modal fade" id="{{pastor.surname}}" tabindex="-1" role="dialog" aria-labelledby="important-msg-label" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-	        <h4 class="modal-title" id="important-msg-label">{{pastor.name}}</h4>
-	      </div>
-	      <div class="modal-body">
-	      	<header>
-	      		<img src="{{pastor.picture}}">
-	      	</header>
-	        <p>{{pastor.excerpt}}</p>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-{% endfor %}
-
 <div class="rows-container column">
 
 	<div class="about-container row center wrap">
@@ -37,19 +39,6 @@ jumbotron: "/img/IMG_0025.JPG"
 		{% endfor %}
 	</div>
 
-	
-	<div class="pastors">
-		<h2>Pastors</h2>
-		<div class="pastors-wrapper">
-			{% for pastor in site.data.content.pastors %}
-			<div class="pastor">
-				<a href="" data-toggle="modal" data-target="#{{pastor.surname}}">
-					<img src="{{pastor.picture}}">
-				</a>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
 
 	<div class="video-block-container row">
 		{% for item in site.data.content.video-block %}

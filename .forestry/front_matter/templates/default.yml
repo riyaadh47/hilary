@@ -47,7 +47,6 @@ fields:
   label: event-name
 pages:
 - _events/3rd-test-event.md
-- _pages/about-us.html
 - _pages/services.html
 - _pages/donate.html
 - _pages/contact.html
@@ -56,3 +55,4 @@ pages:
 - index.html
 - _events/wedding-celebration.md
 - _events/4th-testing-event.md
+- _pages/about-us.html

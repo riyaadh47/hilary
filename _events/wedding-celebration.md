@@ -1,16 +1,16 @@
 ---
-title: Wedding Celebration
-date: 2018-11-26 19:38:01 Z
+title: 'Yearly Easter Program '
+date: 2019-04-21 19:38:01 +0000
 layout: page
-short-date: 16/Dec
-event-date: 16 December 2018
-debate: Wedding of Hilary
+short-date: 21/Apr
+event-date: 21 April 2019
+debate: 'Yearly Easter Program '
 order: ''
-description: We're celebrating the wedding of Hilary and Cynthia.
+description: The yearly Easter Program which is held annually during Easter
 jumbotron: "/img/IMG_0100.JPG"
 image: "/img/IMG_0212.JPG"
 church: House of Worship
-event-name: Hilary and Cynthia's wedding
----
+event-name: 'Yearly Easter Program '
 
+---
 # Welcome everyone to our wedding.

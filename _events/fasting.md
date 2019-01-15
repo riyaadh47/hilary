@@ -6,7 +6,7 @@ debate: Annual Church 40 Days Prayer and Fasting
 title: Fasting
 order: ''
 description: Fasting and prayers for the year
-jumbotron: "/img/logo.png"
+jumbotron: "/img/Cross.jpg"
 image: "/img/logo.png"
 date: 7 Jan 2019
 church: House of Worship

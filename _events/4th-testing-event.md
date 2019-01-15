@@ -1,7 +1,7 @@
 ---
 title: Holy Ghost Settle My Case Annual program.
 date: 2019-10-24 20:06:46 +0000
-layout: page
+layout: default
 short-date: 24/Oct
 event-date: 24 October 2019
 debate: Holy Ghost Settle My Case Annual program.

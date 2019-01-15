@@ -7,7 +7,7 @@ title: Easter Program
 order: ''
 description: Easter Program
 jumbotron: "/img/Cross.jpg"
-image: "/img/logo.png"
+image: "/img/Upcoming-Events.jpeg"
 date: 21 April 2019
 church: House of Worship
 event-name: Easter Program

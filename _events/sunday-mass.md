@@ -8,7 +8,7 @@ debate: Annual 40 Days Fasting Closing conference
 order: 2
 description: ''
 jumbotron: "/img/Cross.jpg"
-image: "/img/logo.png"
+image: "/img/Upcoming-Events.jpeg"
 church: House of Worship
 event-name: Annual 40 Days Fasting Closing conference
 

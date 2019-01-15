@@ -8,9 +8,9 @@ order: ''
 description: Sermon about Fasting
 jumbotron: ''
 image: ''
-date: ''
-church: ''
-event-name: ''
+date: 1 Jan 2019
+church: House of Worship
+event-name: Fasting
 
 ---
 Fasting

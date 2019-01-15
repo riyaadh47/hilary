@@ -1,18 +1,16 @@
 ---
-title: 'Yearly Praying and Fasting '
-date: 2019-01-02 19:27:11 +0000
+title: Annual 40 Days Fasting Closing conference
+date: 2019-02-15 19:27:11 +0000
 layout: page
 short-date: 02/Jan
-event-date: 2 January 2019
-debate: 'Yearly Praying and Fasting '
+event-date: 15 February 2019
+debate: Annual 40 Days Fasting Closing conference
 order: 2
-description: Church yearly fasting and prayers which is held yearly at the beginning
-  of every year. The prayers and fasting is then ended daily at the church premises
-  after prayers.
-jumbotron: "/img/IMG_0025.JPG"
+description: ''
+jumbotron: "/img/Cross.jpg"
 image: "/img/IMG_0025.JPG"
 church: House of Worship
-event-name: 'Yearly Praying and Fasting '
+event-name: Annual 40 Days Fasting Closing conference
 
 ---
-# Hello, everyone.
+This is a conference that will be used to end the Annual 40 days fasting. This program will be hosted by the Senior Pastor Jeff Onyems. More information TBC. 

@@ -27,7 +27,7 @@ order: 0
 	<div class="events-snippets">
 		<h2>Next Events</h2>
 
-		{% assign sorted = site.events | sort: 'date' | reverse %}
+		{% assign sorted = site.events | sort: 'date' %}
 		{% for event in sorted limit: 3 %}
 			<div class="event">
 				<span class="short-date">{{event.short-date}}</span>

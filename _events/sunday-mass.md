@@ -2,13 +2,13 @@
 title: Annual 40 Days Fasting Closing conference
 date: 2019-02-15 00:00:00 +0000
 layout: page
-short-date: 02/Jan
+short-date: 15/Feb
 event-date: 15 February 2019
 debate: Annual 40 Days Fasting Closing conference
 order: 2
 description: ''
 jumbotron: "/img/Cross.jpg"
-image: "/img/IMG_0025.JPG"
+image: "/img/logo.png"
 church: House of Worship
 event-name: Annual 40 Days Fasting Closing conference
 

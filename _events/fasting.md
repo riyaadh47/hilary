@@ -7,7 +7,7 @@ title: Annual Church 40 Days Prayer and Fasting
 order: ''
 description: ''
 jumbotron: "/img/Cross.jpg"
-image: "/img/Upcoming-Events.jpeg"
+image: "/img/prayer-and-fasting.jpg"
 date: 7 Jan 2019
 church: House of Worship
 event-name: Annual Church 40 Days Prayer and Fasting

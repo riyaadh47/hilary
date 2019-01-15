@@ -1,7 +1,7 @@
 ---
 layout: page
 short-date: 01/JAN
-event-date: 1 Jan 2019
+event-date: 1 January 2019
 debate: Fasting
 title: Fasting
 order: ''

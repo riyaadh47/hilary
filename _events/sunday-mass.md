@@ -1,6 +1,6 @@
 ---
 title: Annual 40 Days Fasting Closing conference
-date: 2019-02-15 19:27:11 +0000
+date: 2019-02-15 00:00:00 +0000
 layout: page
 short-date: 02/Jan
 event-date: 15 February 2019

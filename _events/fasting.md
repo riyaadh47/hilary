@@ -3,7 +3,7 @@ layout: page
 short-date: 07/JAN
 event-date: 7 January 2019
 debate: Annual Church 40 Days Prayer and Fasting
-title: Fasting
+title: Annual Church 40 Days Prayer and Fasting
 order: ''
 description: ''
 jumbotron: "/img/Cross.jpg"

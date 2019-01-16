@@ -42,7 +42,7 @@ event-name: ''
 				<span class="short-date">{{event.short-date}}</span>
 				<span class="debate">Event Name: {{event.debate}}</span>
 				<span class="date">{{event.event-date}}</span>
-				<a href="{{page.url | append:'.html' }}" class="link">MORE INFO &gt;&gt;</a>
+				<a href="{{event.url | append:'.html' }}" class="link">MORE INFO &gt;&gt;</a>
 			</div>
 		{% endfor %}
 	</div>

@@ -10,7 +10,21 @@ fields:
       type: simple
     required: true
     options:
-    - default
-    - page
     - post
   label: layout
+  default: default
+- type: text
+  name: title
+  label: title
+- type: datetime
+  label: Short date
+  name: short-date
+  description: This field should only used when creating posts
+  config:
+    date_format: DD/MMM
+- type: text
+  label: Debate
+  name: debate
+- type: datetime
+  label: Full date
+  name: event-date

@@ -5,7 +5,7 @@ collections:
   events:
     title: Events
     output: true
-    permalink: "/events/:path"
+    permalink: "/:events/:path"
   pages:
     title: Main Pages
     output: true

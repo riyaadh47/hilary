@@ -28,3 +28,9 @@ fields:
 - type: datetime
   label: Full date
   name: event-date
+- type: text
+  name: order
+  label: Order
+- type: text
+  name: description
+  label: Description

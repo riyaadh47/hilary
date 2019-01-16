@@ -10,7 +10,7 @@ jumbotron: "/img/IMG_0172.JPG"
 <div class="rows-container column">
 	
 	<div class="event-container">
-		{% for event in site.events %}
+		{% for event in site.posts %}
 			<section class="event">
 				<div class="image">
 					<img src="{{event.image}}">
@@ -23,7 +23,7 @@ jumbotron: "/img/IMG_0172.JPG"
 					<h2>{{event.event-name}}</h2>
 					<p class="description">{{event.description}}</p>
 					<div class="btn-container">
-						<a href="{{event.url | append:'.html' }}" class="button">More about event</a>
+						<a href="{{event.url}}" class="button">More about event</a>
 					</div>
 				</div>
 			</section>

@@ -36,13 +36,13 @@ event-name: ''
 	<div class="events-snippets">
 		<h2>Next Events</h2>
 
-		{% assign sorted = site.events | sort: 'date' %}
+		{% assign sorted = site.posts | sort: 'date' %}
 		{% for event in sorted limit: 3 %}
 			<div class="event">
 				<span class="short-date">{{event.short-date}}</span>
 				<span class="debate">Event Name: {{event.debate}}</span>
 				<span class="date">{{event.event-date}}</span>
-				<a href="{{event.url | append:'.html' }}" class="link">MORE INFO &gt;&gt;</a>
+				<a href="{{event.url}}" class="link">MORE INFO &gt;&gt;</a>
 			</div>
 		{% endfor %}
 	</div>

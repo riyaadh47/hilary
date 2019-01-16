@@ -51,5 +51,6 @@ pages:
 - _pages/about-us.html
 - _pages/events.html
 - _events/fasting.md
+- _events/whatever.md
 - _pages/donate.html
 - index.html

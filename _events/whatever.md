@@ -6,11 +6,11 @@ debate: Whatever
 title: Whatever
 order: ''
 description: Whatever
-jumbotron: "/img/Cross.jpg"
-image: "/img/prayer-and-fasting.jpg"
+jumbotron: ''
+image: ''
 date: 15 April 2019
 church: Whatever
 event-name: Whatever
 
 ---
-# Headings
+# Hello

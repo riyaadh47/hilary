@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 short-date: 07/JAN
 event-date: 7 January 2019
 debate: Annual Church 40 Days Prayer and Fasting

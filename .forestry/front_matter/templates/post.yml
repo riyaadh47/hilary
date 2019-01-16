@@ -35,5 +35,17 @@ fields:
   name: description
   label: Description
 - type: file
+  name: jumbotron
+  label: Jumbotron
+- type: file
   label: Event Image
   name: image
+- type: text
+  name: date
+  label: Date
+- type: text
+  label: church
+  name: church
+- type: text
+  name: event-name
+  label: event-name

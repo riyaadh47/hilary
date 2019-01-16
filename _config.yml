@@ -1,6 +1,9 @@
 ---
 title: House of Worship Ministries
 timezone: UTC
+
+include: ["_events"]
+
 collections:
   events:
     title: Events

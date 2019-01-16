@@ -5,10 +5,6 @@ timezone: UTC
 include: ["_posts"]
 
 collections:
-  events:
-    title: Events
-    output: true
-    permalink: "/events/:path"
   pages:
     title: Main Pages
     output: true

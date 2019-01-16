@@ -13,4 +13,4 @@ church: Whatever
 event-name: Whatever
 
 ---
-# Heading
+# Headings

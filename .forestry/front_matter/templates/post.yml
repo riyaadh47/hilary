@@ -49,3 +49,5 @@ fields:
 - type: text
   name: event-name
   label: event-name
+pages:
+- _posts/annual-church-40-days-prayer-and-fasting-closing-program.md

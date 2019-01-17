@@ -118,10 +118,10 @@
       "picture": "https://via.placeholder.com/500"
     }
   ],
-  "md" : [
+  "md": [
     {
-      "heading" : "",
-      "paragraph" : ""
+      "heading": "Welcome message",
+      "paragraph": "Message"
     }
   ]
 }

@@ -50,8 +50,10 @@ event-name: ''
 
 
 <section class="welcome-message">
-	<h2>WELCOMING YOU HOME</h2>
-	<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+	{% for declaration in site.data.content.md %}
+	<h2>{{declaration.heading}}</h2>
+	<p>{{declaration.paragraph}}</p>
+	{% endfor %}
 </section>
 
 

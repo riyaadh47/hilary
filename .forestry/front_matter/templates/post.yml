@@ -47,5 +47,3 @@ fields:
   name: event-name
   label: event-name
 - type: text
-pages:
-- _posts/annual-fasting-closing-program.md

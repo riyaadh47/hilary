@@ -12,16 +12,13 @@ fields:
     options:
     - post
   label: layout
-  default: default
+  default: post
 - type: text
   name: title
   label: title
-- type: datetime
-  label: Short date
+- type: text
   name: short-date
-  description: This field should only used when creating posts
-  config:
-    date_format: DD/MMM
+  label: Short Date
 - type: text
   label: Debate
   name: debate
@@ -49,3 +46,4 @@ fields:
 - type: text
   name: event-name
   label: event-name
+- type: text

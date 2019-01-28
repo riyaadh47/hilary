@@ -20,11 +20,11 @@ fields:
   name: short-date
   label: Short Date
 - type: text
-  name: event-date
-  label: Full Date
-- type: text
   label: Debate
   name: debate
+- type: text
+  name: event-date
+  label: Full Date
 - type: text
   name: order
   label: Order

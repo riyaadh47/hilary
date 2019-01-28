@@ -3,7 +3,7 @@ layout: post
 title: Annual Fasting Closing Program
 short-date: 15/FEB
 debate: Annual Fasting Closing Program
-event-date: 2019-02-15 00:00:00 +0200
+event-date: 2019-02-15 00:00:00 +0000
 order: ''
 description: ''
 jumbotron: "/img/Cross.jpg"

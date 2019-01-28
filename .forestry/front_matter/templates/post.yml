@@ -46,3 +46,5 @@ fields:
 - type: text
   name: event-name
   label: event-name
+pages:
+- _posts/easter-program.md

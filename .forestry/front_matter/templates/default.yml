@@ -47,8 +47,8 @@ fields:
   label: event-name
 pages:
 - _pages/services.html
-- _pages/contact.html
 - _pages/about-us.html
 - _pages/events.html
 - _pages/donate.html
 - index.html
+- _pages/contact.html

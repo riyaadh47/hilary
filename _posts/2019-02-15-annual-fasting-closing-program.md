@@ -8,7 +8,7 @@ order: ''
 description: ''
 jumbotron: "/img/Cross.jpg"
 image: "/img/Upcoming-Events.jpeg"
-date: 15/FEB
+date: 2019/02/15
 church: House of Worship Ministries
 event-name: Annual Fasting Closing Program
 undefined: ''

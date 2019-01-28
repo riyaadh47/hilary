@@ -36,8 +36,8 @@ event-name: ''
 	<div class="events-snippets">
 		<h2>Next Events</h2>
 
-		{% assign sorted = site.posts | sort: 'date' %}
-		{% for event in sorted limit: 3 | reverse %}
+		{% assign sorted = site.posts | reverse %}
+		{% for event in sorted limit: 3 %}
 			<div class="event">
 				<span class="short-date">{{event.short-date}}</span>
 				<span class="debate">Event Name: {{event.debate}}</span>

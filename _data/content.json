@@ -1,25 +1,25 @@
 {
   "quick-links": [
     {
-      "hero": "https://media.giphy.com/media/11zX9CiCLo80O4/giphy.gif",
-      "heading": "ABOUT OUR CHURCH",
-      "paragraph": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-      "link": "http://google.com"
+      "hero": "img/logo.png",
+      "heading": "OUR ANCHOR SCRIPTURE",
+      "paragraph": "I beseech you therefore, brethren, by the mercies of God, that you present yourself your bodies a living sacrifice, holy, acceptable to God, which is your reasonable service. And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what is good and acceptable and perfect will of God.  <br/> Romans 12:1-2",
+      "link": "http://www.houseofworshipministries.co.za/"
     },
     {
-      "hero": "img/IMG_0075.JPG",
-      "heading": "ABOUT OUR CHURCH",
-      "paragraph": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-      "link": "http://google.com"
+      "hero": "img/logo.png",
+      "heading": "OUR ANCHOR SCRIPTURE",
+      "paragraph": "But the hours is coming, and now is, when the true worshipers will worship the Father in spirit and truth; For the Father is seeking such to worship him. God is spirit, and those who worship him must worship in spirit and truth. <br/> John 4:23-24",
+      "link": "http://www.houseofworshipministries.co.za/"
     },
     {
-      "hero": "img/IMG_0075.JPG",
-      "heading": "ABOUT OUR CHURCH",
-      "paragraph": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
-      "link": "http://google.com"
+      "hero": "img/logo.png",
+      "heading": "OUR MISSION",
+      "paragraph": "Through this ministry God is set to change your story and take you to your next level in life. You will not be disappointed. In Jesus name. Amen!",
+      "link": "http://www.houseofworshipministries.co.za/"
     },
     {
-      "hero": "img/IMG_0075.JPG",
+      "hero": "img/logo.png",
       "heading": "ABOUT OUR CHURCH",
       "paragraph": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.",
       "link": "http://google.com"
@@ -28,10 +28,10 @@
   "pre-footer": [
     {
       "backgroundImage": "img/Clip0001T01.JPG",
-      "heading": "HELP US TO SPREAD OUR<br>LOVE AND FAITH",
-      "paragraph": "I'm a title. Click here to add your own text and edit me.",
-      "link": "http://google.com",
-      "linkName": "Link Or Read More"
+      "heading": "PLEASE JOIN US TO EXPERIENCE<br>THIS GREAT MOVE OF GOD",
+      "paragraph": "House of Worship is a place where yielding, submitting, surrendering, loving, obeying and serving God is our main priority <br> AND <br> Winning, succeeding, healing, deliverance, overcoming, conquering and prospering is our portion.",
+      "link": "http://www.houseofworshipministries.co.za/",
+      "linkName": "Read More"
     }
   ],
   "about-us": [
@@ -57,9 +57,9 @@
   ],
   "services": [
     {
-      "image": "img/IMG_0017.JPG",
-      "heading": "Hours",
-      "content": "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you."
+      "image": "img/Cross.jpg",
+      "heading": "Church Weekly Programs",
+      "content": "Sunday Service:<br/>Sundays from 10:00AM - 1:00PM<br/><br/>Prayer Warriors:<br/>Mondays from 6:00PM - 7:30PM<br/><br/>Bible Study:<br/>Tuesdays from 6:00PM - 7:30PM<br/><br/>Mid-Week Service:<br/>Wednesdays from 6:00PM - 7:30PM<br/><br/>Prayer Meeting:<br/>Fridays from 6:00PM - 7:30PM"
     }
   ],
   "events": [
@@ -116,6 +116,12 @@
       "about": "Dummy text for modal 4",
       "excerpt": "This is dummy text modal 4",
       "picture": "https://via.placeholder.com/500"
+    }
+  ],
+  "md": [
+    {
+      "heading": "2019 MY YEAR OF RIGHTEOUSNESS",
+      "paragraph": "A YEAR OF PUTTING GOD FIRST <br/> Matt. 6:33"
     }
   ]
 }

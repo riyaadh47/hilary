@@ -1,0 +1,48 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - post
+  label: layout
+  default: post
+- type: text
+  name: title
+  label: title
+- type: text
+  name: short-date
+  label: Short Date
+- type: text
+  label: Debate
+  name: debate
+- type: text
+  name: event-date
+  label: Full Date
+- type: text
+  name: order
+  label: Order
+- type: text
+  name: description
+  label: Description
+- type: file
+  name: jumbotron
+  label: Jumbotron
+- type: file
+  label: Event Image
+  name: image
+- type: text
+  name: date
+  label: Date
+- type: text
+  label: church
+  name: church
+- type: text
+  name: event-name
+  label: event-name

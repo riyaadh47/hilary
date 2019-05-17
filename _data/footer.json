@@ -2,17 +2,15 @@
   "footer": [
     {
       "title": "Contacts",
-      "description": "Pastor Ndubuisi Jeff Onyems\nChurch Phone Number: 0214470887\nMobile: 0723239512"
+      "description": "Pastor Ndubuisi Jeff Onyems <br/> Church Phone Number: 0214470887<br/> Mobile: 0723239512<br/> Email: info@houseofworshipministries.co.za <br/> PastorJeffOnyems@houseofworshipministries.co.za"
     },
     {
       "title": "Address",
-      "tel": "+27633142884",
-      "address": "19 Spencer Road, Salt RIver <br>Cape Town, South Africa <br>7925",
-      "description": "Address"
+      "description": "No. 19 Spencer Road, Salt River <br/> Cape Town, South Africa <br/> 7925"
     },
     {
       "title": "Weekly Programs",
-      "description": "Sunday Service: Sundays from 10:00AM - 1:00PM\nPrayer Warriors: Mondays from 6:00PM - 7PM\nBible Study: Tuesdays from 6:00PM - 7PM\nMid-Week Service: Wednesdays from 6:00PM - 7PM\nPrayer Meeting: Fridays from 6:00PM - 7PM "
+      "description": "Sunday Service:<br/>Sundays from 10:00AM - 1:00PM<br/><br/>Prayer Warriors:<br/>Mondays from 6:00PM - 7:30PM<br/><br/>Bible Study:<br/>Tuesdays from 6:00PM - 7:30PM<br/><br/>Mid-Week Service:<br/>Wednesdays from 6:00PM - 7:30PM<br/><br/>Prayer Meeting:<br/>Fridays from 6:00PM - 7:30PM"
     }
   ]
 }

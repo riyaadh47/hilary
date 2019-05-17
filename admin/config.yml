@@ -2,8 +2,11 @@ backend:
   name: github
   branch: master
   repo: riyaadh47/hilary
-  app_id: b9d5ff96-efb3-427f-a446-ca17f0152bf4
+  # app_id: b9d5ff96-efb3-427f-a446-ca17f0152bf4
+  # client_id: ccb89011e2942e8dd158
 
+
+# https://github.com/login/oauth/authorize?client_id=ccb89011e2942e8dd158&redirect_uri=https%3A%2F%2Fapi.netlify.com%2Fauth%2Fdone&state=5cdf03008b167b0d5459ff97&scope=repo
 
 
 collections:

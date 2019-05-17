@@ -1,0 +1,27 @@
+backend:
+  name: github
+  branch: master
+  repo: riyaadh47/hilary
+  app_id: b9d5ff96-efb3-427f-a446-ca17f0152bf4
+
+
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "_data/content.yml"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - {label: "Featured Image", name: "thumbnail", widget: "image"}
+          - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"

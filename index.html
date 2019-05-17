@@ -1,9 +1,18 @@
 ---
 title: Home page
 layout: default
-order: 0
----
+order: ''
+short-date: ''
+event-date: ''
+debate: ''
+description: ''
+jumbotron: ''
+image: ''
+date: ''
+church: ''
+event-name: ''
 
+---
 <div class="construction">
 	<h5>Website still under construction</h5>
 </div>
@@ -13,7 +22,7 @@ order: 0
 		{% for item in site.data.sliders.call-to-action %}
 			<p>{{item.paragraph}}</p>
 			<h2>{{item.heading}}</h2>
-			<a href="{{item.link}}" class="button">Read more</a>
+			<!--<a href="{{item.link}}" class="button">Read more</a>-->
 		{% endfor %}
 	</div>
 	<div class="slider">
@@ -27,13 +36,13 @@ order: 0
 	<div class="events-snippets">
 		<h2>Next Events</h2>
 
-		{% assign sorted = site.events | sort: 'date' | reverse %}
+		{% assign sorted = site.posts | sort:"order" %}
 		{% for event in sorted limit: 3 %}
 			<div class="event">
 				<span class="short-date">{{event.short-date}}</span>
-				<span class="debate">Debate: {{event.debate}}</span>
+				<span class="debate">Event Name: {{event.debate}}</span>
 				<span class="date">{{event.event-date}}</span>
-				<a href="{{event.url | append:'.html' }}" class="link">MORE INFO &gt;&gt;</a>
+				<a href="{{event.url}}" class="link">MORE INFO &gt;&gt;</a>
 			</div>
 		{% endfor %}
 	</div>
@@ -41,8 +50,10 @@ order: 0
 
 
 <section class="welcome-message">
-	<h2>WELCOMING YOU HOME</h2>
-	<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+	{% for declaration in site.data.content.md %}
+	<h2>{{declaration.heading}}</h2>
+	<p>{{declaration.paragraph}}</p>
+	{% endfor %}
 </section>
 
 
@@ -52,7 +63,7 @@ order: 0
 			<span class="hero"><img src="{{link.hero}}"></span>
 			<h3 class="title">{{link.heading}}</h3>
 			<p>{{link.paragraph}}</p>
-			<a href="{{link.link}}" class="link">READ MORE</a>
+			<!--<a href="{{link.link}}" class="link">READ MORE</a>-->
 		</article>
 	{% endfor %}
 </section>

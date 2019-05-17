@@ -19,11 +19,8 @@ event-name: ''
 
 <div class="slider-container">
 	<div class="call-to-action">
-		{% for item in site.data.sliders.call-to-action %}
-			<p>{{item.paragraph}}</p>
-			<h2>{{item.heading}}</h2>
-			<!--<a href="{{item.link}}" class="button">Read more</a>-->
-		{% endfor %}
+		<p>{{site.data.homepage.call-to-action.paragraph}}</p>
+		<h2>{{site.data.homepage.call-to-action.heading}}</h2>
 	</div>
 	<div class="slider">
 		{% for slide in site.data.sliders.sliders %}

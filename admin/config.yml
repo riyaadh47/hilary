@@ -2,27 +2,26 @@ backend:
   name: github
   branch: master
   repo: riyaadh47/hilary
-  # app_id: b9d5ff96-efb3-427f-a446-ca17f0152bf4
-  # client_id: ccb89011e2942e8dd158
-
-
-# https://github.com/login/oauth/authorize?client_id=ccb89011e2942e8dd158&redirect_uri=https%3A%2F%2Fapi.netlify.com%2Fauth%2Fdone&state=5cdf03008b167b0d5459ff97&scope=repo
+  app_id: b9d5ff96-efb3-427f-a446-ca17f0152bf4
+  client_id: ccb89011e2942e8dd158
 
 
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Homepage"
+    name: "homepage"
     files:
-      - label: "About Page"
-        name: "about"
-        file: "_data/content.yml"
+      - label: "Homepage"
+        name: "homepage"
+        file: "_data/homepage.yml"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
-          - {label: "Featured Image", name: "thumbnail", widget: "image"}
-          - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Hero"
+            name: "call-to-action"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "heading"
+                widget: "string"
+
 
 
 

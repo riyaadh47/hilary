@@ -35,7 +35,7 @@ event-name: ''
 		{% assign sorted = site.posts | sort:"order" %}
 		{% for event in sorted limit: 3 %}
 			<div class="event">
-				<span class="short-date">{{event.short-date}}</span>
+				<span class="short-date">{{event.date | date: "%d"}}/{{event.date | date: "%b"}}</span>
 				<span class="debate">Event Name: {{event.debate}}</span>
 				<span class="date">{{event.event-date}}</span>
 				<a href="{{event.url}}" class="link">MORE INFO &gt;&gt;</a>

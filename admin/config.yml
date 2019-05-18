@@ -18,9 +18,12 @@ collections:
             name: "call-to-action"
             widget: "object"
             fields:
+              - label: "Heading"
+                name: "paragraph"
+                widget: "markdown"
               - label: "Title"
                 name: "heading"
-                widget: "string"
+                widget: "markdown"
 
 
 

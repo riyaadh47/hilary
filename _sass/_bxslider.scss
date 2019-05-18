@@ -15,6 +15,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    @include rem(padding, 0px 50px);
     z-index: 999;
     font-family: $secondary-font;
     color: $white;
@@ -25,25 +26,30 @@
     @include max-breakpoint($mobile) {
       height: 150px;
     }
-    p {
-      @include rem(margin, 0 0 20px);
-      @include rem(padding, 0);
+    .heading {
+      @include rem(margin, 0px);
+      @include rem(padding, 0px);
       @include max-breakpoint($tablet) {
         @include font-size(13);
       }
       @include max-breakpoint($mobile) {
-        @include font-size(13);
+        @include font-size(10);
       }
     }
-    h2 {
-      @include font-size(50);
-      @include rem(margin, 0 0 20px);
+    .title {
+      @include font-size(30);
+      @include rem(margin, 0);
       @include rem(padding, 0);
       @include max-breakpoint($tablet) {
         @include font-size(24);
       }
       @include max-breakpoint($mobile) {
-        @include font-size(18);
+        @include font-size(14);
+      }
+      p {
+        @include rem(margin, 0px);
+        font-family: inherit;
+        font-size: inherit;
       }
     }
   }

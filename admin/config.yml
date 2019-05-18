@@ -32,15 +32,15 @@ collections:
                     name: "img"
                     widget: "image"
 
-      - label: "Events"
-        name: "events"
-        folder: "_posts"
-        create: true
-        fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
-          - {label: "Featured Image", name: "thumbnail", widget: "image"}
-          - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Events"
+    name: "events"
+    folder: "_posts"
+    create: true
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
 
 

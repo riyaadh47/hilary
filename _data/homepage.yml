@@ -2,11 +2,25 @@ call-to-action:
   heading: A PLACE OF RAISING TRUE<br>WORSHIPERS OF JESUS CHRIST
   paragraph: Welcome to House of Worship Ministries
   slider:
-    - img: img/IMG_0075.JPG
-    - img: img/IMG_0026.JPG
-    - img: img/IMG_0023.JPG
-    - img: img/IMG_0017.JPG
+    - img: "img/IMG_0075.JPG"
+    - img: "img/IMG_0026.JPG"
+    - img: "img/IMG_0023.JPG"
+    - img: "img/IMG_0017.JPG"
 
 contentBlock:
   heading: "MY YEAR OF RIGHTEOUSNESS"
   bibleVerse: "A YEAR OF PUTTING GOD FIRST<br>Matt. 6:33"
+
+scriptures:
+  - hero: "img/logo.png"
+    heading: "OUR ANCHOR SCRIPTURE"
+    paragraph: "I beseech you therefore, brethren, by the mercies of God, that you present yourself your bodies a living sacrifice, holy, acceptable to God, which is your reasonable service. And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what is good and acceptable and perfect will of God.  <br/> Romans 12:1-2"
+    link: "http://www.houseofworshipministries.co.za/"
+  - hero: "img/logo.png"
+    heading: "OUR ANCHOR SCRIPTURE"
+    paragraph: "But the hours is coming, and now is, when the true worshipers will worship the Father in spirit and truth; For the Father is seeking such to worship him. God is spirit, and those who worship him must worship in spirit and truth. <br/> John 4:23-24"
+    link: "http://www.houseofworshipministries.co.za/"
+  - hero: "img/logo.png"
+    heading: "OUR MISSION"
+    paragraph: "Through this ministry God is set to change your story and take you to your next level in life. You will not be disappointed. In Jesus name. Amen!"
+    link: "http://www.houseofworshipministries.co.za/"

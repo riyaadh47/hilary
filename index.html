@@ -52,12 +52,11 @@ event-name: ''
 
 
 <section class="quick-links">
-	{% for link in site.data.content.quick-links limit: 3 %}
+	{% for link in site.data.homepage.scriptures limit: 3 %}
 		<article>
 			<span class="hero"><img src="{{link.hero}}"></span>
 			<h3 class="title">{{link.heading}}</h3>
-			<p>{{link.paragraph}}</p>
-			<!--<a href="{{link.link}}" class="link">READ MORE</a>-->
+			<span>{{link.paragraph | markdownify}}</span>
 		</article>
 	{% endfor %}
 </section>

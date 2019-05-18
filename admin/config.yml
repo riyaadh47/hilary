@@ -41,6 +41,20 @@ collections:
               - label: "Bible Verse"
                 name: "bibleVerse"
                 widget: "string"
+          - label: "Scriptures"
+            name: "scriptures"
+            widget: "list"
+            fields:
+              - label: "Image"
+                name: "hero"
+                widget: "image"
+              - label: "Title"
+                name: "heading"
+                widget: "string"
+              - label: "Content"
+                name: "paragraph"
+                widget: "markdown"
+
 
   - label: "Events"
     name: "events"

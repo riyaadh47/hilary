@@ -36,6 +36,7 @@ collections:
     name: "events"
     folder: "_posts"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -51,4 +52,4 @@ collections:
 
 
 media_folder: "/img/"
-public_folder: "/img/uploads"
+public_folder: "/img/"

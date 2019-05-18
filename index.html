@@ -23,7 +23,7 @@ event-name: ''
 		<span class="title">{{site.data.homepage.call-to-action.heading | markdownify}}</span>
 	</div>
 	<div class="slider">
-		{% for slide in site.data.sliders.sliders %}
+		{% for slide in site.data.homepage.call-to-action.slider %}
 			<div><img src="{{site.baseurl}}/{{slide.img}}"></div>
 		{% endfor %}
 	</div>

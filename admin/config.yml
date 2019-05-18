@@ -31,6 +31,16 @@ collections:
                   - label: "Slider Image"
                     name: "img"
                     widget: "image"
+          - label: "Content Block"
+            name: "contentBlock"
+            widget: "object"
+            fields:
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+              - label: "Bible Verse"
+                name: "bibleVerse"
+                widget: "string"
 
   - label: "Events"
     name: "events"

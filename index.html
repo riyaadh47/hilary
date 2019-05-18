@@ -46,10 +46,8 @@ event-name: ''
 
 
 <section class="welcome-message">
-	{% for declaration in site.data.content.md %}
-	<h2>{{declaration.heading}}</h2>
-	<p>{{declaration.paragraph}}</p>
-	{% endfor %}
+	<h2>{{ "now" | date: "%Y" }} {{site.data.homepage.contentBlock.heading}}</h2>
+	<p>{{site.data.homepage.contentBlock.bibleVerse}}</p>
 </section>
 
 

@@ -1,11 +1,18 @@
 <footer>
 	<section class="container">
-		{% for item in site.data.footer.footer %}
+		{% assign items = site.data.footer.footer %}
+		{% for item in items %}
 			<div class="column">
 				<h2>{{item.title}}</h2>
 				<p>{{item.description}}</p>
 				<p>{{item.tel}}</p>
 				<p>{{item.address}}</p>
+				<div class="social-icons">
+					{% assign social = item.socialMedia %}
+					{% for icon in social %}
+						<a href="{{icon.url}}"><img src="{{icon.icon}}"></a>
+					{% endfor %}
+				</div>
 			</div>
 		{% endfor %}
 	</section>

@@ -82,6 +82,23 @@ html {
 	}
 }
 
+.full-container {
+	@extend .df;
+	flex-direction: column;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	&.relative {
+		position: relative;
+	}
+	&.side-gutters {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
 .logo {
 	@extend .df;
 	@extend .ai-c;

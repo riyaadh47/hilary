@@ -1,0 +1,23 @@
+---
+title: Gallery
+date: 2018-10-23 20:53:52 +0000
+layout: gallery
+order: 4
+description: Donate page
+jumbotron: ''
+short-date: ''
+event-date: ''
+debate: ''
+image: ''
+church: ''
+event-name: ''
+
+---
+
+
+<div id="gallery">
+	{% assign images = site.data.gallery.gallery %}
+	{% for item in images %}
+  	<a href="{{item.image}}" data-ngthumb="{{item.thumb}}">{{item.title}}</a>
+	{% endfor %}
+</div>

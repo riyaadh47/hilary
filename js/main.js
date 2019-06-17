@@ -12,4 +12,9 @@ $(document).ready(function(){
   	$("nav").addClass("nav-close");
   });
 
+  $("#gallery").nanogallery2({
+    thumbnailHeight: "auto",
+    thumbnailWidth: 300
+  });
+
 });

@@ -72,6 +72,27 @@ collections:
       - {label: "Content", name: "body", widget: "markdown"}
 
 
+  - label: "Gallery"
+    name: "gallery"
+    files:
+      - label: "Gallery"
+        name: "gallery"
+        file: "_data/gallery.yml"
+        fields:
+          - label: "Gallery Images"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Thumbnail"
+                name: "thumb"
+                widget: "image"
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                
 
 
 

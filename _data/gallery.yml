@@ -1,16 +1,19 @@
 gallery:
-  - image: "/img/IMG_0023.JPG"
-    thumb: "/img/IMG_0023.JPG"
-    title: "Image 1"
-  - image: "/img/IMG_0023.JPG"
-    thumb: "/img/IMG_0023.JPG"
-    title: "Image 1"
-  - image: "/img/IMG_0023.JPG"
-    thumb: "/img/IMG_0023.JPG"
-    title: "Image 1"
-  - image: "/img/IMG_0023.JPG"
-    thumb: "/img/IMG_0023.JPG"
-    title: "Image 1"
-  - image: "/img/IMG_0023.JPG"
-    thumb: "/img/IMG_0023.JPG"
-    title: "Image 1"
+  - image: /img/IMG_0023.JPG
+    thumb: /img/IMG_0023.JPG
+    title: Image 1
+  - image: /img/IMG_0023.JPG
+    thumb: /img/IMG_0023.JPG
+    title: Image 1
+  - image: /img/IMG_0023.JPG
+    thumb: /img/IMG_0023.JPG
+    title: Image 1
+  - image: /img/IMG_0023.JPG
+    thumb: /img/IMG_0023.JPG
+    title: Image 1
+  - image: /img/IMG_0023.JPG
+    thumb: /img/IMG_0023.JPG
+    title: Image 1
+  - image: /img/IMG_0017.JPG
+    thumb: /img/IMG_0017.JPG
+    title: Church

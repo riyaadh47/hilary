@@ -71,6 +71,9 @@ collections:
               - label: "Name"
                 name: "name"
                 widget: "string"
+              - label: "Snippet"
+                name: "snippet"
+                widget: "string"
 
   - label: "Events"
     name: "events"

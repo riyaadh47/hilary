@@ -65,7 +65,9 @@ collections:
         allow_add: false
         widget: "list"
         fields:
-          - {label: "Name", name: "name", widget: "string"}
+          - label: "Name"
+            name: "name"
+            widget: "string"
 
   - label: "Events"
     name: "events"

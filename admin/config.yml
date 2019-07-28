@@ -59,6 +59,7 @@ collections:
   - label: "About"
     name: "name"
     file: "_data/about.yml"
+    fields:
       - label: "About"
         name: "about"
         widget: " list"

@@ -7,6 +7,7 @@ backend:
 
 
 collections:
+  
   - label: "Homepage"
     name: "homepage"
     files:
@@ -55,6 +56,15 @@ collections:
                 name: "paragraph"
                 widget: "markdown"
 
+  - label: "About"
+    name: "name"
+    file: "_data/about.yml"
+      - label: "About"
+        name: "about"
+        widget: " list"
+        allow_add: false
+          - fields:
+              - {label: "Name", name: "name", widget: "string"}
 
   - label: "Events"
     name: "events"

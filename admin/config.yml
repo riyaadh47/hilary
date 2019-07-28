@@ -58,16 +58,19 @@ collections:
 
   - label: "About"
     name: "name"
-    file: "_data/about.yml"
-    fields:
+    files:
       - label: "About"
         name: "about"
-        allow_add: false
-        widget: "list"
+        file: "_data/about.yml"
         fields:
-          - label: "Name"
-            name: "name"
-            widget: "string"
+          - label: "About"
+            name: "about"
+            allow_add: false
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
 
   - label: "Events"
     name: "events"

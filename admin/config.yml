@@ -62,10 +62,10 @@ collections:
     fields:
       - label: "About"
         name: "about"
-        widget: " list"
         allow_add: false
-          - fields:
-              - {label: "Name", name: "name", widget: "string"}
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
 
   - label: "Events"
     name: "events"

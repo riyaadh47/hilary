@@ -70,6 +70,11 @@ event-name: ''
 				<a href="" data-toggle="modal" data-target="#{{pastor.surname}}">
 					<img src="{{pastor.picture}}">
 				</a>
+				<p>{{pastor.name}} {{pastor.surname}}</p>
+				<a class="bio" href="" data-toggle="modal" data-target="#{{pastor.surname}}">
+					<p>View Bio</p>
+					<img src="{{site.baseurl}}/img/arrow.svg">
+				</a>
 			</div>
 			{% endfor %}
 		</div>

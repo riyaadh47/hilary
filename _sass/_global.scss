@@ -613,6 +613,7 @@ footer {
 			width: 100%;
 			max-width: 25%;
 			padding: 0px 20px;
+			text-align: left;
 			a {
 				display: block;
 			}
@@ -625,7 +626,23 @@ footer {
 			}
 			img {
 				max-width: 100%;
-				border-radius: 100%;
+				border-radius: 10%;
+				margin-bottom: 15px;
+			}
+			.bio {
+				display: flex;
+				align-items: center;
+				//justify-content: space-between;
+				p {
+					margin-bottom: 0px;
+					margin-right: 10px;
+					font-size: 13px;
+					text-transform: uppercase;
+				}
+				img {
+					margin-bottom: 0px;
+					max-width: 10%;
+				}
 			}
 		}
 	}

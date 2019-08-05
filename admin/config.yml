@@ -93,13 +93,17 @@ collections:
         name: "about"
         file: "_data/about.yml"
         fields:
-          - label: "Jumbotron"
-            name: "jumbotron"
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
             file: "_pages/about-us.html"
             fields:
-              - {label: "Jumbotron", name: "jumbotron", widget: "image"}
-              - {label: "Description", name: "description", widget: "string"}
-
+              - label: "Jumbotron"
+                name: "jumbotron"
+                widget: "image"
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
           - label: "About"
             name: "about"
             allow_add: false

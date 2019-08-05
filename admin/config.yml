@@ -7,6 +7,16 @@ backend:
 
 
 collections:
+
+  # - label: "Website Settings"
+  #   name: "settings"
+  #   files:
+  #     - label: "Website Settings"
+  #       name: "settings"
+  #       file: "_data/about.yml"
+  #       fields:
+  #         - label: "Social Media"
+  #           name: "social"
   
   - label: "Homepage"
     name: "homepage"

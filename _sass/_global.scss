@@ -613,7 +613,10 @@ footer {
 			width: 100%;
 			max-width: 25%;
 			padding: 0px 20px;
+			margin-bottom: 15px;
 			text-align: left;
+			font-family: $base-font;
+			font-weight: 600;
 			a {
 				display: block;
 			}

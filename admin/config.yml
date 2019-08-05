@@ -93,6 +93,13 @@ collections:
         name: "about"
         file: "_data/about.yml"
         fields:
+          - label: "Jumbotron"
+            name: "jumbotron"
+            file: "_pages/about-us.html"
+            fields:
+              - {label: "Jumbotron", name: "jumbotron", widget: "image"}
+              - {label: "Description", name: "description", widget: "string"}
+
           - label: "About"
             name: "about"
             allow_add: false
@@ -125,12 +132,6 @@ collections:
                 name: "picture"
                 widget: "image"
 
-      - label: "Jumbotron"
-        name: "jumbotron"
-        file: "_pages/about-us.html"
-        fields:
-          - {label: "Description", name: "description", widget: "string"}
-          
 
   - label: "Events"
     name: "events"

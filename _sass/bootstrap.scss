@@ -902,9 +902,12 @@ button.close {
 }
 .modal-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
   padding: 15px;
+  // @include max-breakpoint($tablet) {
+  //   flex-direction: column;
+  // }
   p {
     font-size: 14px;
     font-family: $base-font;
@@ -912,10 +915,11 @@ button.close {
   header {
     width: 100%;
     max-width: 150px;
-    margin: 0 auto 20px;
+    min-width: 150px;
+    margin: 0 20px;
     box-shadow: none;
     img {
-      border-radius: 100%;
+      border-radius: 10%;
       max-width: 100%;
     }
   }

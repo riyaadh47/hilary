@@ -66,6 +66,26 @@ collections:
                 name: "paragraph"
                 widget: "markdown"
 
+          - label: "Pre Footer"
+            name: "pre-footer"
+            widget: "object"
+            fields:
+              - label: "Background Image"
+                name: "backgroundImage"
+                widget: "image"
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+              - label: "Paragraph"
+                name: "paragraph"
+                widget: "string"
+              - label: "Link"
+                name: "link"
+                widget: "string"
+              - label: "Link name"
+                name: "linkName"
+                widget: "string"
+
   - label: "About"
     name: "name"
     files:

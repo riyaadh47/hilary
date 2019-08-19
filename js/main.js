@@ -12,4 +12,11 @@ $(document).ready(function(){
   	$("nav").addClass("nav-close");
   });
 
+  $('.weekly-gallery').slick({
+    infinite: true,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+  });
+
 });

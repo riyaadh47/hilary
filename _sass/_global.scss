@@ -82,6 +82,21 @@ html {
 	}
 }
 
+.gallery-container {
+	width: 100%;
+	height: 80vh;
+	margin: 0 auto;
+	flex-direction: column;
+	max-width: $gallery-width;
+	.slide {
+		height: 100%;
+		img {
+			max-height: 100%;
+			max-width: 100%;
+		}
+	}
+}
+
 .logo {
 	@extend .df;
 	@extend .ai-c;

@@ -147,6 +147,14 @@ collections:
         name: "services"
         file: "_data/services.yml"
         fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            file: "_pages/services.html"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
+              - {label: "Image", name: "jumbotron", widget: "image"}
           - label: "Intro"
             name: "intro"
             widget: "object"

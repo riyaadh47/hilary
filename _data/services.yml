@@ -1,8 +1,16 @@
-services:
-  image: img/Cross.jpg
-  heading: Church Weekly Programs
-  content: Sunday Service:<br/>Sundays from 10:00AM - 1:00PM<br/><br/>Prayer Warriors:<br/>Mondays from 6:00PM - 7:30PM<br/><br/>Bible Study:<br/>Tuesdays from 6:00PM - 7:30PM<br/><br/>Mid-Week Service:<br/>Wednesdays from 6:00PM - 7:30PM<br/><br/>Prayer Meeting:<br/>Fridays from 6:00PM - 7:30PM
-
+hero:
+  description: asdasd
+  jumbotron: /img/IMG_0023.JPG
+  title: asdasd
 intro:
-  header: Welcome
   body: Body text
+  header: Welcome
+services:
+  content: >-
+    Sunday Service:<br/>Sundays from 10:00AM - 1:00PM<br/><br/>Prayer
+    Warriors:<br/>Mondays from 6:00PM - 7:30PM<br/><br/>Bible
+    Study:<br/>Tuesdays from 6:00PM - 7:30PM<br/><br/>Mid-Week
+    Service:<br/>Wednesdays from 6:00PM - 7:30PM<br/><br/>Prayer
+    Meeting:<br/>Fridays from 6:00PM - 7:30PM
+  heading: Church Weekly Programs
+  image: img/Cross.jpg

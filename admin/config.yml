@@ -173,6 +173,20 @@ collections:
               - {label: "Heading", name: "heading", widget: "string"}
               - {label: "Content", name: "content", widget: "markdown"}
 
+  - label: "Footer"
+    name: "footer"
+    files:
+      
+      - label: "Footer"
+        name: "footer"
+        file: "_data/footer.yml"
+        fields:
+          - label: "Social Name"
+            name: "social-media"
+            widget: "object"
+            fields:
+              - {label: "Social Media", name: "socialMedia", widget: "string"}
+
 
 
 media_folder: "/img/"

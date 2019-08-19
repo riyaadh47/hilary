@@ -1,0 +1,55 @@
+hero:
+  description: >-
+    House of Worship Ministry commenced with their first church service on the
+    21st of July 2013 at No. 7 Loop Street, Cape Town with General Overseer
+    Pastor Jeff Onyems and his wife. God added to their number and in April 2014
+    the church moved to her second location at 8 Rochester Street Observatory
+    with 9 dedicated members. Ever since then God has worked mightily through
+    the General Overseer Pastor Jeff Onyems as lots of miracles happened. More
+    souls has been added consistently over the years which led to the relocation
+    of the church to a new church premises at No. 48 Hopkins Street Salt River
+    Cape Town on 19th December 2014. At the church premises in Salt River great
+    multitudes joined the ministry within 3 to 4 years through the prophetic
+    anointing of the Man of God Pastor Jeff Onyems and his assistants. The
+    ministry rose to over 100 dedicated members and this meant that a new church
+    premises with a larger venue was needed to accommodate the growing number of
+    church members. God through one of the church members made the vision
+    possible as he helped facilitate the new and current venue of the church
+    which is 19 Spencer Road Salt River Cape Town South Africa. The church
+    oficially moved into the new premises on the 28th March 2018 and the first
+    Sunday service was held on the 1st of April 2018...
+  jumbotron: /img/IMG_0025.JPG
+about:
+  - name: OUR VISION
+    snippet: The vision of the ministry is to raise true worshipers of Jesus Christ
+  - name: OUR VISION
+    snippet: >-
+      I'm a paragraph. Click here to add your own text and edit me. I’m a great
+      place for you to tell a story and let your users know a little more about
+      you.
+  - name: OUR VISION
+    snippet: >-
+      I'm a paragraph. Click here to add your own text and edit me. I’m a great
+      place for you to tell a story and let your users know a little more about
+      you.
+pastors:
+  - about: Dummy text modal 1
+    excerpt: This is dummy text modal 1
+    name: Modal Title or Pastor Name
+    picture: 'https://via.placeholder.com/500'
+    surname: surname
+  - about: Dummy text for modal 2
+    excerpt: This is dummy text modal 2
+    name: modal 2
+    picture: 'https://via.placeholder.com/500'
+    surname: another-surname
+  - about: Dummy text for modal 3
+    excerpt: This is dummy text modal 3
+    name: modal 3
+    picture: 'https://via.placeholder.com/500'
+    surname: another-surname3
+  - about: Dummy text for modal 4
+    excerpt: This is dummy text modal 4
+    name: modal 4
+    picture: 'https://via.placeholder.com/500'
+    surname: another-surname4

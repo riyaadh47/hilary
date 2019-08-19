@@ -11,64 +11,13 @@ debate: ''
 image: ''
 church: ''
 event-name: ''
+
 ---
 
-<div class="weekly-gallery">
-	
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
 
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
-	<div class="slide">
-		<img src="{{site.baseurl}}/img/IMG_0017.JPG">
-	</div>
-
+<div id="gallery">
+	{% assign images = site.data.gallery.gallery %}
+	{% for item in images %}
+  	<a href="{{item.image}}" data-ngthumb="{{item.thumb}}">{{item.title}}</a>
+	{% endfor %}
 </div>

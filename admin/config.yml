@@ -7,6 +7,17 @@ backend:
 
 
 collections:
+
+  # - label: "Website Settings"
+  #   name: "settings"
+  #   files:
+  #     - label: "Website Settings"
+  #       name: "settings"
+  #       file: "_data/about.yml"
+  #       fields:
+  #         - label: "Social Media"
+  #           name: "social"
+  
   - label: "Homepage"
     name: "homepage"
     files:
@@ -55,6 +66,76 @@ collections:
                 name: "paragraph"
                 widget: "markdown"
 
+          - label: "Pre Footer"
+            name: "pre-footer"
+            widget: "object"
+            fields:
+              - label: "Background Image"
+                name: "backgroundImage"
+                widget: "image"
+              - label: "Heading"
+                name: "heading"
+                widget: "string"
+              - label: "Paragraph"
+                name: "paragraph"
+                widget: "string"
+              - label: "Link"
+                name: "link"
+                widget: "string"
+              - label: "Link name"
+                name: "linkName"
+                widget: "string"
+
+  - label: "About"
+    name: "name"
+    files:
+      - label: "About"
+        name: "about"
+        file: "_data/about.yml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            file: "_pages/about-us.html"
+            fields:
+              - label: "Jumbotron"
+                name: "jumbotron"
+                widget: "image"
+              - label: "Description"
+                name: "description"
+                widget: "markdown"
+          - label: "About"
+            name: "about"
+            allow_add: false
+            widget: "list"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Snippet"
+                name: "snippet"
+                widget: "string"
+          - label: "Pastors"
+            name: "pastors"
+            widget: "list"
+            allow_add: true
+            fields:
+              - label: "Pastor name"
+                name: "name"
+                widget: "string"
+              - label: "Pastor Surname"
+                name: "surname"
+                widget: "string"
+              - label: "About Pastor"
+                name: "about"
+                widget: "markdown"
+              - label: "Excerpt"
+                name: "excerpt"
+                widget: "string"
+              - label: "Pastor Picture"
+                name: "picture"
+                widget: "image"
+
 
   - label: "Events"
     name: "events"
@@ -72,6 +153,27 @@ collections:
       - {label: "Content", name: "body", widget: "markdown"}
 
 
+  - label: "Gallery"
+    name: "gallery"
+    files:
+      - label: "Gallery"
+        name: "gallery"
+        file: "_data/gallery.yml"
+        fields:
+          - label: "Gallery Images"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Thumbnail"
+                name: "thumb"
+                widget: "image"
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                
 
 
 

@@ -61,12 +61,11 @@ event-name: ''
 	{% endfor %}
 </section>
 
-{% for item in site.data.content.pre-footer %}
-	<section class="pre-footer" style="background-image: url({{item.backgroundImage}});">
-		<span class="pre-footer-content">
-			<h2>{{item.heading}}</h2>
-			<p>{{item.paragraph}}</p>
-			<a href="{{item.link}}" class="button">{{item.linkName}}</a>
-		</span>
-	</section>
-{% endfor %}
+
+<section class="pre-footer" style="background-image: url({{site.data.homepage.pre-footer.backgroundImage}});">
+	<span class="pre-footer-content">
+		<h2>{{site.data.homepage.pre-footer.heading}}</h2>
+		<p>{{site.data.homepage.pre-footer.paragraph}}</p>
+		<a href="{{site.data.homepage.pre-footer.link}}" class="button">{{site.data.homepage.pre-footer.linkName}}</a>
+	</span>
+</section>

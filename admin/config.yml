@@ -147,8 +147,15 @@ collections:
         name: "services"
         file: "_data/services.yml"
         fields:
-          - label: "label"
+          - label: "Intro"
             name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Intro Header", name: "header", widget: "string"}
+              - {label: "Intro Body", name: "body", widget: "markdown"}
+          
+          - label: "Church Weekly Programs"
+            name: "services"
             widget: "object"
             fields:
               - {label: "Image", name: "image", widget: "image"}

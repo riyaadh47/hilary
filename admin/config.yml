@@ -182,10 +182,12 @@ collections:
         file: "_data/footer.yml"
         fields:
           - label: "Social Name"
-            name: "social-media"
-            widget: "object"
+            name: "socialMedia"
+            widget: "list"
             fields:
-              - {label: "Social Media", name: "socialMedia", widget: "string"}
+              - {label: "Social Media", name: "name", widget: "string"}
+              - {label: "Icon", name: "icon", widget: "image"}
+              - {label: "URL", name: "url", widget: "string"}
 
 
 

@@ -67,7 +67,7 @@ event-name: ''
 		<div class="pastors-wrapper">
 			{% for pastor in site.data.about.pastors %}
 			<div class="pastor">
-				<a href="" data-toggle="modal" data-target="#{{pastor.surname}}">
+				<a href="" data-toggle="modal" data-target="#{{pastor.surname}}" class="avatar">
 					<img src="{{pastor.picture}}">
 				</a>
 				<p>{{pastor.name}} {{pastor.surname}}</p>

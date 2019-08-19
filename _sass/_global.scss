@@ -617,6 +617,11 @@ footer {
 			text-align: left;
 			font-family: $base-font;
 			font-weight: 600;
+			.avatar {
+				vertical-align: middle;
+				height: 240px;
+				margin-bottom: 15px;
+			}
 			a {
 				display: block;
 			}
@@ -629,8 +634,11 @@ footer {
 			}
 			img {
 				max-width: 100%;
+				height: 100%;
+				display: block;
 				border-radius: 10%;
-				margin-bottom: 15px;
+				margin-bottom: 0px;
+				object-fit: cover;
 			}
 			.bio {
 				display: flex;

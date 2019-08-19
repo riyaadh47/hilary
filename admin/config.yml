@@ -29,12 +29,8 @@ collections:
             name: "call-to-action"
             widget: "object"
             fields:
-              - label: "Heading"
-                name: "paragraph"
-                widget: "markdown"
-              - label: "Title"
-                name: "heading"
-                widget: "markdown"
+              - {label: "Heading", name: "paragraph", widget: "markdown"}
+              - {label: "Title", name: "heading", widget: "markdown"}
               - label: "Slider"
                 name: "slider"
                 widget: "list"
@@ -46,45 +42,25 @@ collections:
             name: "contentBlock"
             widget: "object"
             fields:
-              - label: "Heading"
-                name: "heading"
-                widget: "string"
-              - label: "Bible Verse"
-                name: "bibleVerse"
-                widget: "string"
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Bible Verse", name: "bibleVerse", widget: "string"}
           - label: "Scriptures"
             name: "scriptures"
             widget: "list"
             fields:
-              - label: "Image"
-                name: "hero"
-                widget: "image"
-              - label: "Title"
-                name: "heading"
-                widget: "string"
-              - label: "Content"
-                name: "paragraph"
-                widget: "markdown"
+              - {label: "Image", name: "hero", widget: "image"}
+              - {label: "Title", name: "heading", widget: "string"}
+              - {label: "Content", name: "paragraph", widget: "markdown"}
 
           - label: "Pre Footer"
             name: "pre-footer"
             widget: "object"
             fields:
-              - label: "Background Image"
-                name: "backgroundImage"
-                widget: "image"
-              - label: "Heading"
-                name: "heading"
-                widget: "string"
-              - label: "Paragraph"
-                name: "paragraph"
-                widget: "string"
-              - label: "Link"
-                name: "link"
-                widget: "string"
-              - label: "Link name"
-                name: "linkName"
-                widget: "string"
+              - {label: "Background Image", name: "backgroundImage", widget: "image"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Paragraph", name: "paragraph", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Link name", name: "linkName", widget: "string"}
 
   - label: "About"
     name: "name"

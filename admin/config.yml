@@ -7,16 +7,6 @@ backend:
 
 
 collections:
-
-  # - label: "Website Settings"
-  #   name: "settings"
-  #   files:
-  #     - label: "Website Settings"
-  #       name: "settings"
-  #       file: "_data/about.yml"
-  #       fields:
-  #         - label: "Social Media"
-  #           name: "social"
   
   - label: "Homepage"
     name: "homepage"
@@ -149,7 +139,21 @@ collections:
               - label: "Title"
                 name: "title"
                 widget: "string"
-                
+  
+  - label: "Services"
+    name: "services"
+    files:
+      - label: "Services"
+        name: "services"
+        file: "_data/services.yml"
+        fields:
+          - label: "label"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
 
 
 

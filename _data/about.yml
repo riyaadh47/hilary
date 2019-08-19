@@ -33,11 +33,13 @@ about:
       place for you to tell a story and let your users know a little more about
       you.
 pastors:
-  - about: Dummy text modal 1
+  - about: >-
+      This is to Test that we can add a test user for this functionality. In
+      this case this test will suffix.
     excerpt: This is dummy text modal 1
-    name: Modal Title or Pastor Name
-    picture: 'https://via.placeholder.com/500'
-    surname: surname
+    name: Pastor Test
+    picture: /img/hilary-hilson-10.jpg
+    surname: Testing
   - about: Dummy text for modal 2
     excerpt: This is dummy text modal 2
     name: modal 2

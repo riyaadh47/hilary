@@ -1,7 +1,10 @@
 call-to-action:
   heading: A PLACE OF RAISING TRUE<br>WORSHIPERS OF JESUS CHRIST
   paragraph: Welcome to House of Worship Ministries
-  slider: []
+  slider:
+    - img: /img/PHOTO-2020-01-06-22-15-06.jpg
+    - img: /img/DSC_0063.JPG
+    - img: /img/DSC_0126.JPG
 contentBlock:
   bibleVerse: 'A YEAR OF PUTTING GOD FIRST<br>Matt. 6:33'
   heading: MY YEAR OF GREAT EXPLOITS

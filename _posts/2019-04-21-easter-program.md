@@ -1,16 +1,10 @@
 ---
 layout: post
 title: Easter Program
-short-date: 21/APR
 debate: Easter Program
-event-date: 21 APRIL 2019
-order: ''
-description: Easter Program
-jumbotron: "/img/Cross.jpg"
-image: "/img/Upcoming-Events.jpeg"
-date: 21 APRIL 2019
+date: 2020-04-11T22:00:00.000Z
 church: HOW
-event-name: Easter Program
-
+jumbotron: /img/Cross.jpg
+image: /img/Upcoming-Events.jpeg
 ---
 # More Information TBA

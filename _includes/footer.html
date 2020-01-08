@@ -1,7 +1,7 @@
 <footer>
 	<section class="container">
-		{% assign items = site.data.footer.footer %}
-		{% for item in items %}
+		{% assign items = site.data.footer %}
+		{% for item in items.footer %}
 			<div class="column">
 				<h2>{{item.title}}</h2>
 				<p>{{item.description}}</p>

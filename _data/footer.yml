@@ -18,8 +18,8 @@ footer:
       icon: "/img/linkedin.svg"
       url: "http://www.linkedin.com"
 
-# title: "Address"
-# description: "No. 19 Spencer Road, Salt River <br/> Cape Town, South Africa <br/> 7925"
+title: "Address"
+description: "No. 19 Spencer Road, Salt River <br/> Cape Town, South Africa <br/> 7925"
 
-# title: "Weekly Programs"
-# description: "Sunday Service:<br/>Sundays from 10:00AM - 1:00PM<br/><br/>Prayer Warriors:<br/>Mondays from 6:00PM - 7:30PM<br/><br/>Bible Study:<br/>Tuesdays from 6:00PM - 7:30PM<br/><br/>Mid-Week Service:<br/>Wednesdays from 6:00PM - 7:30PM<br/><br/>Prayer Meeting:<br/>Fridays from 6:00PM - 7:30PM"
+title: "Weekly Programs"
+description: "Sunday Service:<br/>Sundays from 10:00AM - 1:00PM<br/><br/>Prayer Warriors:<br/>Mondays from 6:00PM - 7:30PM<br/><br/>Bible Study:<br/>Tuesdays from 6:00PM - 7:30PM<br/><br/>Mid-Week Service:<br/>Wednesdays from 6:00PM - 7:30PM<br/><br/>Prayer Meeting:<br/>Fridays from 6:00PM - 7:30PM"

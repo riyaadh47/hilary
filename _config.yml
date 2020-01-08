@@ -18,7 +18,7 @@ collections:
     output: true
 email: tuhilary@gmail.com
 description: 
-baseurl: ''
+baseurl: 'https://www.houseofworshipministries.co.za/'
 url: http://www.houseofworshipministries.co.za
 markdown: kramdown
 theme: minima

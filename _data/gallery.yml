@@ -1,1 +1,40 @@
-gallery: []
+gallery:
+  - image: img/DSC_0779.jpg
+    thumb: img/DSC_0779.jpg
+    title: '1'
+  - image: img/DSC_0772.jpg
+    thumb: img/DSC_0772.jpg
+    title: '2'
+  - image: img/DSC_0758.jpg
+    thumb: img/DSC_0758.jpg
+    title: '3'
+  - image: img/DSC_0723.jpg
+    thumb: img/DSC_0723.jpg
+    title: '4'
+  - image: img/DSC_0702.jpg
+    thumb: img/DSC_0702.jpg
+    title: '5'
+  - image: img/DSC_0678.jpg
+    thumb: img/DSC_0678.jpg
+    title: '6'
+  - image: img/DSC_0674.jpg
+    thumb: img/DSC_0674.jpg
+    title: '7'
+  - image: img/DSC_0655.jpg
+    thumb: img/DSC_0655.jpg
+    title: '8'
+  - image: img/DSC_0581.jpg
+    thumb: img/DSC_0581.jpg
+    title: K
+  - image: img/DSC_0301.jpg
+    thumb: img/DSC_0301.jpg
+    title: M
+  - image: img/DSC_0058.jpg
+    thumb: img/DSC_0058.jpg
+    title: O
+  - image: img/DSC_0053.jpg
+    thumb: img/DSC_0053.jpg
+    title: C
+  - image: img/DSC_0752.jpg
+    thumb: img/DSC_0752.jpg
+    title: P

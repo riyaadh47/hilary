@@ -16,6 +16,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+future: true
 email: tuhilary@gmail.com
 description: 
 baseurl: 'https://www.houseofworshipministries.co.za'

@@ -190,5 +190,5 @@ collections:
 
 
 
-media_folder: "/img/"
-public_folder: "/img/"
+media_folder: "img/"
+public_folder: "img/"

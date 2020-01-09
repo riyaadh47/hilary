@@ -2,7 +2,7 @@
 layout: post
 title: Church 21 Days Prayer and Fasting
 debate: Church 21 Days Prayer and Fasting
-date: 2020-01-05T22:00:00.000Z
+date: 2020-01-06T22:00:00.000Z
 church: House of Worship Ministries
 jumbotron: /img/Cross.jpg
 image: /img/prayer-and-fasting.jpg

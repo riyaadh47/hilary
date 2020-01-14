@@ -29,7 +29,7 @@ pastors:
       this case this test will suffix.
     excerpt: This is dummy text modal 1
     name: Pastor Test
-    picture: /img/hilary-hilson-10.jpg
+    picture: img/Cross.jpg
     surname: Testing
   - about: >-
       It is a long established fact that a reader will be distracted by the
@@ -56,7 +56,7 @@ pastors:
       non-characteristic words etc.
     excerpt: This is dummy text modal 2
     name: Pastor UnTest
-    picture: /img/hilary-hilson-11-copy.jpg
+    picture: img/Cross.jpg
     surname: Too
   - about: Dummy text for modal 3
     excerpt: This is dummy text modal 3
